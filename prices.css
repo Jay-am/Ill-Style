@@ -152,7 +152,7 @@
   padding: 2em 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-row: 1em;
   grid-template-areas:
     "... headline-1 headline-2 headline-3"
@@ -236,4 +236,45 @@
 
 .color-detail-16 {
   grid-area: detail-16;
+}
+
+/* HENNE */
+
+.henne {
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row: 1em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4";
+}
+
+.henne-headline-1 {
+  grid-area: headline-1;
+}
+
+.henne-headline-2 {
+  grid-area: headline-2;
+}
+
+.henne-headline-3 {
+  grid-area: headline-3;
+}
+
+.henne-detail-1 {
+  grid-area: detail-1;
+}
+
+.henne-detail-2 {
+  grid-area: detail-2;
+}
+
+.henne-detail-3 {
+  grid-area: detail-3;
+}
+
+.henne-detail-4 {
+  grid-area: detail-4;
 }
