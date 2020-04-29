@@ -713,11 +713,30 @@
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
+    "headline-1 headline-2"
     "detail-1 detail-2"
     "detail-3 detail-4"
     "detail-5 detail-6"
     "detail-7 detail-8"
     "detail-9 detail-10";
+}
+
+.treatment-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.treatment-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .treatment-detail-1 {
@@ -778,12 +797,31 @@
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
+    "headline-1 headline-2"
     "detail-1 detail-2"
     "detail-3 detail-4"
     "detail-5 detail-6"
     "detail-7 detail-8"
     "detail-9 detail-10"
     "detail-11 detail-12";
+}
+
+.care-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.care-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .care-detail-1 {
@@ -849,16 +887,26 @@ h1 {
 
 h2 {
   padding-bottom: 0.5em;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  padding-bottom: 0.2em;
+  font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 p {
   padding-bottom: 2em;
-  font-size: 0.9rem;
   font-weight: lighter;
   /* color: rgb(156, 154, 154); */
+}
+
+.span {
+  font-size: 0.5rem;
 }
 
 .euro {
