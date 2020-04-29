@@ -167,7 +167,6 @@
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
-  text-transform: uppercase;
   color: rgb(201, 200, 200);
 }
 
@@ -176,7 +175,6 @@
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
-  text-transform: uppercase;
   color: rgb(201, 200, 200);
 }
 
@@ -185,7 +183,6 @@
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
-  text-transform: uppercase;
   color: rgb(201, 200, 200);
 }
 
@@ -852,14 +849,16 @@ h1 {
 
 h2 {
   padding-bottom: 0.5em;
-  font-size: 1.3rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 p {
   padding-bottom: 2em;
   font-size: 0.9rem;
   font-weight: lighter;
-  color: rgb(156, 154, 154);
+  /* color: rgb(156, 154, 154); */
 }
 
 .euro {
