@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ill Style</title>
-    <link rel="stylesheet" href="home.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="container nav row">
-        <ul class="nav__list">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ill Style</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="shared.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="container row">
+        <a class="logo" href="#"><img src="#" alt="Logo" /></a>
+        <ul class="nav__list row">
           <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
           <li class="nav__item"><a href="#" class="nav__link">About</a></li>
           <li class="nav__item"><a href="#" class="nav__link">Service</a></li>
@@ -19,65 +22,72 @@
             <a href="contact.html" class="nav__link">Contact</a>
           </li>
         </ul>
-      </nav>
-      <section class="hero">
-        <div class="container row">
-          <div class="hero__text">
-            <h1>Ill Style</h1>
-            <p>
-              Individualität<br />Liebe zum Detail<br />Leidenschaft zur
-              natürlichen Schönheit
-            </p>
-            <p>
-              Hairstyling | Cut & Color | Organic-Haircare | Wedding Lifestyle
-              Blog
-            </p>
-            <ul>
-              <li>Ganzheitliche und typgerechte Beratung</li>
-              <li>Calligraphy Cut</li>
-              <li>Ammoniakfreie Coloration</li>
-              <li>Henn'e Pflanzenhaarfarbe</li>
-              <li>Organic Haircare von PHILIP MARTIN'S</li>
-              <li>Hair Spa</li>
-              <li>Wellness für den Kopf und für die Seele!</li>
-              <li>Echthaar Extensions und Tapes von Great Lengths</li>
-              <li>Mineral Make-up von Jane Iredale</li>
-              <li>
-                Hairstyling und Make-up für Imagekampagnen, Events, Hochzeiten,
-                Setcards, Workshops Shootings
-              </li>
-            </ul>
-          </div>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="container row">
+        <div class="hero__text">
+          <h1>Ill Style</h1>
+          <p>
+            Individualität<br />Liebe zum Detail<br />Leidenschaft zur
+            natürlichen Schönheit
+          </p>
+          <p>
+            Hairstyling | Cut & Color | Organic-Haircare | Wedding Lifestyle
+            Blog
+          </p>
         </div>
-      </section>
-    </header>
-    <main class="main container row">
-      <section class="primary-content">
-        <h2 class="section-title">Title</h2>
-        <p>Lorem ipsum dolor sit amet</p>
-      </section>
-    </main>
-    <footer>
-      <div class="hours">
-        <p>
-          Öffnungszeiten: Di.&mdash;Fr. 10:00-18:00 Uhr<br />Sa.
-          10:00&mdash;14:00 Uhr
-        </p>
-        <p>Termine auch außerhalb der Öffnungszeiten möglich!</p>
       </div>
-      <div class="address">
-        <p>Adresse: Rohrbacherstr. 106, 69126 Heidelberg</p>
-      </div>
-      <div></div>
-      <a href="impressum.html">Impressum</a>
-      <ul class="social__links">
-        <li class="footer__item"><a href="#" class="social__link">F</a></li>
-        <li class="footer__item"><a href="#" class="social__link">I</a></li>
-        <li class="footer__item"><a href="#" class="social__link">P</a></li>
+    </section>
+  </header>
+  <main class="main container row">
+    <section class="primary-content">
+      <h2 class="section-title">Title</h2>
+      <ul class="">
+        <li>Ganzheitliche und typgerechte Beratung</li>
+        <li>Calligraphy Cut</li>
+        <li>Ammoniakfreie Coloration</li>
+        <li>Henn'e Pflanzenhaarfarbe</li>
+        <li>Organic Haircare von PHILIP MARTIN'S</li>
+        <li>Hair Spa</li>
+        <li>Wellness für den Kopf und für die Seele!</li>
+        <li>Echthaar Extensions und Tapes von Great Lengths</li>
+        <li>Mineral Make-up von Jane Iredale</li>
+        <li>Hairstyling und Make-up für Imagekampagnen, Events, Hochzeiten, Setcards, Workshops Shootings</li>
       </ul>
-      <p class="copyright">
-        Copyright &copy;2020 by Ill Style. All rights reserved.
-      </p>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="container col">
+      <div class="footer__content">
+
+        <div class="contact">
+          <img src="#" alt="Ill Style Logo" />
+          <p>Ill Style | Rohrbacherstr. 106 | 69126 Heidelberg | 0177-4227954 | info@ill-style.de</p>
+        </div>
+        
+        <div class="hours">
+          <p>Öffnungszeiten: Dienstag - Freitag: 10:00 - 18:00 Uhr | Samstag 10:00 - 14:00 Uhr</p>
+          <p>Termine auch außerhalb der Öffnungszeiten möglich!</p>
+        </div>
+        
+        <ul class="social__links row">
+          <li class="footer__item"><a href="#" class="social__link">F</a></li>
+          <li class="footer__item"><a href="#" class="social__link">I</a></li>
+          <li class="footer__item"><a href="#" class="social__link">P</a></li>
+        </ul>
+        
+        <div class="legal">
+          <ul class="legal__links">
+            <li class="footer__item"><a href="agb.html" class="legal__link">AGB</a></li>
+            <li class="footer__item"><a href="datenschutzerklärung.html" class="legal__link">Datenschutzerklärung</a></li>
+            <li class="footer__item"><a href="impressum.html" class="legal__link">Impressum</a>
+            </ul>
+            <p class="copyright">All Rights Reserved | Ill Style &copy; 2020</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
+    

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2:400,500&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo+Bhaina+2", sans-serif;
+  font-size: 400;
+  line-height: 1.5;
+  color: #5c5a59;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.nav {
+  background: #b59b87;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav__item+.nav__item {
+  margin-left: 1.5em;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  background: #b59b87;
+  color: #fff;
+}
+
+.footer__content {
+  align-items: center;
+}
+
+.social__links,
+.legal__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social__link,
+.legal__link {
+  text-decoration: none;
+}
