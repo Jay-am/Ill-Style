@@ -6,8 +6,16 @@
   padding: 1.5em 0;
 }
 
-p {
-  color: #fff;
+.bewertung_img {}
+
+.bewertung__name {
+  font-weight: 600;
 }
 
-*/
+.bewertung__date,
+.bewertung__content {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.bewertung__stars {}
