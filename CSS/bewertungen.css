@@ -1,10 +1,13 @@
-/* .bewertung {
-  background: #f5f6f3;
+.bewertung {
+  /* background: #f5f6f3;
   background: #8d8d8d;
-  color: #fff;
-  ;
+  color: #fff; */
+  width: 30%;
+  padding: 1.5em 0;
 }
 
 p {
   color: #fff;
-} */
+}
+
+*/
