@@ -16,3 +16,12 @@
 .header__part+.header__part {
   margin-left: 2em;
 }
+
+.main-text {
+  padding: 5em 0;
+}
+
+.main-text h1,
+.main-text p {
+  padding-bottom: 1em;
+}
