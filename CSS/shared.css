@@ -38,14 +38,14 @@ div {
 
 .row {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: center;
   margin: 0;
 }
 
 .col {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 0;
 }
 
@@ -57,6 +57,10 @@ div {
 
 .nav {
   background: #b59b87;
+}
+
+.nav__bar {
+  justify-content: space-between;
 }
 
 .nav__list {
@@ -74,19 +78,37 @@ div {
   text-decoration: none;
 }
 
+.logo-nav {
+  width: 4.5em;
+}
+
 .footer {
   background: #b59b87;
+}
+
+.footer__content {}
+
+.footer-text {
   color: #fff;
 }
 
-.footer__content {
-  align-items: center;
+.footer__item {
+  padding: 0;
+  margin: 0;
 }
 
+.service,
 .social__links,
-.legal__links {}
+.legal__links {
+  padding: 0;
+  list-style: none;
+}
 
 .social__link,
 .legal__link {
   text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.7rem;
 }
