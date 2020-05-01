@@ -1,0 +1,10 @@
+h1,
+h2,
+h3 {
+  padding: 1em 0;
+}
+
+p {
+  padding-bottom: 1em;
+  line-height: 1.6;
+}
