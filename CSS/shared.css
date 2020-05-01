@@ -22,7 +22,7 @@ img {
 }
 
 a {
-  display: inline-block;
+  display: block;
 }
 
 h1,
@@ -70,13 +70,13 @@ h3 {
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   max-width: 1020px;
   margin: 0 auto;
 }
 
 
-/* NAVIGATION BAR */
+/* NAVIGATION BAR ALT*/
 
 /* .nav {
   background: #b59b87;
@@ -106,7 +106,7 @@ h3 {
 } */
 
 
-/* NAVIGATION BAR HELL */
+/* NAVIGATION BAR NEU */
 
 .nav {
   background: #fff;
