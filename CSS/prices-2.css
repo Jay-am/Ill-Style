@@ -1,0 +1,927 @@
+/* GRID LAYOUTS*/
+
+/* CUT */
+
+.cut {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8";
+}
+
+.cut-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.cut-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.cut-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.cut-detail-1 {
+  grid-area: detail-1;
+}
+
+.cut-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.cut-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.cut-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+.cut-detail-5 {
+  grid-area: detail-5;
+}
+
+.cut-detail-6 {
+  grid-area: detail-6;
+  place-self: center;
+}
+
+.cut-detail-7 {
+  grid-area: detail-7;
+  place-self: center;
+}
+
+.cut-detail-8 {
+  grid-area: detail-8;
+  place-self: center;
+}
+
+
+/* CALLIGRAPHY */
+
+.calligraphy {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4";
+}
+
+.calligraphy-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.calligraphy-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.calligraphy-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.calligraphy-detail-1 {
+  grid-area: detail-1;
+}
+
+.calligraphy-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.calligraphy-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.calligraphy-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+
+/* NEXT GENERATION */
+
+.next-generation {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4";
+}
+
+.next-generation-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgb(201, 200, 200);
+}
+
+.next-generation-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgb(201, 200, 200);
+}
+
+.next-generation-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgb(201, 200, 200);
+}
+
+.next-generation-detail-1 {
+  grid-area: detail-1;
+}
+
+.next-generation-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.next-generation-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.next-generation-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+
+/* COLOR */
+
+.color {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8"
+    "detail-9 detail-10 detail-11 detail-12"
+    "detail-13 detail-14 detail-15 detail-16";
+}
+
+.color-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.color-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.color-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.color-detail-1 {
+  grid-area: detail-1;
+}
+
+.color-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.color-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.color-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+.color-detail-5 {
+  grid-area: detail-5;
+}
+
+.color-detail-6 {
+  grid-area: detail-6;
+  place-self: center;
+}
+
+.color-detail-7 {
+  grid-area: detail-7;
+  place-self: center;
+}
+
+.color-detail-8 {
+  grid-area: detail-8;
+  place-self: center;
+}
+
+.color-detail-9 {
+  grid-area: detail-9;
+}
+
+.color-detail-10 {
+  grid-area: detail-10;
+  place-self: center;
+}
+
+.color-detail-11 {
+  grid-area: detail-11;
+  place-self: center;
+}
+
+.color-detail-12 {
+  grid-area: detail-12;
+  place-self: center;
+}
+
+.color-detail-13 {
+  grid-area: detail-13;
+}
+
+.color-detail-14 {
+  grid-area: detail-14;
+  place-self: center;
+}
+
+.color-detail-15 {
+  grid-area: detail-15;
+  place-self: center;
+}
+
+.color-detail-16 {
+  grid-area: detail-16;
+  place-self: center;
+}
+
+
+/* HENNE */
+
+.henne {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4";
+}
+
+.henne-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.henne-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.henne-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.henne-detail-1 {
+  grid-area: detail-1;
+}
+
+.henne-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.henne-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.henne-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+
+/* HIGHLIGHTS */
+
+.highlights {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8"
+    "detail-9 detail-10 detail-11 detail-12";
+}
+
+.highlights-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.highlights-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.highlights-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.highlights-detail-1 {
+  grid-area: detail-1;
+}
+
+.highlights-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.highlights-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.highlights-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+.highlights-detail-5 {
+  grid-area: detail-5;
+}
+
+.highlights-detail-6 {
+  grid-area: detail-6;
+  place-self: center;
+}
+
+.highlights-detail-7 {
+  grid-area: detail-7;
+  place-self: center;
+}
+
+.highlights-detail-8 {
+  grid-area: detail-8;
+  place-self: center;
+}
+
+.highlights-detail-9 {
+  grid-area: detail-9;
+}
+
+.highlights-detail-10 {
+  grid-area: detail-10;
+  place-self: center;
+}
+
+.highlights-detail-11 {
+  grid-area: detail-11;
+  place-self: center;
+}
+
+.highlights-detail-12 {
+  grid-area: detail-12;
+  place-self: center;
+}
+
+
+/* BALAYAGE */
+
+.balayage {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8"
+    "detail-9 detail-10 detail-11 detail-12";
+}
+
+.balayage-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.balayage-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.balayage-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.balayage-detail-1 {
+  grid-area: detail-1;
+}
+
+.balayage-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.balayage-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.balayage-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+.balayage-detail-5 {
+  grid-area: detail-5;
+}
+
+.balayage-detail-6 {
+  grid-area: detail-6;
+  place-self: center;
+}
+
+.balayage-detail-7 {
+  grid-area: detail-7;
+  place-self: center;
+}
+
+.balayage-detail-8 {
+  grid-area: detail-8;
+  place-self: center;
+}
+
+.balayage-detail-9 {
+  grid-area: detail-9;
+}
+
+.balayage-detail-10 {
+  grid-area: detail-10;
+  place-self: center;
+}
+
+.balayage-detail-11 {
+  grid-area: detail-11;
+  place-self: center;
+}
+
+.balayage-detail-12 {
+  grid-area: detail-12;
+  place-self: center;
+}
+
+
+/* STYLING */
+
+.styling {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8"
+    "detail-9 detail-10 detail-11 detail-12";
+}
+
+.styling-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.styling-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.styling-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.styling-detail-1 {
+  grid-area: detail-1;
+}
+
+.styling-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.styling-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.styling-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+.styling-detail-5 {
+  grid-area: detail-5;
+}
+
+.styling-detail-6 {
+  grid-area: detail-6;
+  place-self: center;
+}
+
+.styling-detail-7 {
+  grid-area: detail-7;
+  place-self: center;
+}
+
+.styling-detail-8 {
+  grid-area: detail-8;
+  place-self: center;
+}
+
+.styling-detail-9 {
+  grid-area: detail-9;
+}
+
+.styling-detail-10 {
+  grid-area: detail-10;
+  place-self: center;
+}
+
+.styling-detail-11 {
+  grid-area: detail-11;
+  place-self: center;
+}
+
+.styling-detail-12 {
+  grid-area: detail-12;
+  place-self: center;
+}
+
+
+/* TREATMENT */
+
+.treatment {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(13em, 15em) minmax(5em, 30em);
+  grid-template-rows: repeat(5, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "headline-1 headline-2"
+    "detail-1 detail-2"
+    "detail-3 detail-4"
+    "detail-5 detail-6"
+    "detail-7 detail-8"
+    "detail-9 detail-10";
+}
+
+.treatment-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.treatment-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.treatment-detail-1 {
+  grid-area: detail-1;
+}
+
+.treatment-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.treatment-detail-3 {
+  grid-area: detail-3;
+}
+
+.treatment-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+.treatment-detail-5 {
+  grid-area: detail-5;
+}
+
+.treatment-detail-6 {
+  grid-area: detail-6;
+  place-self: center;
+}
+
+.treatment-detail-7 {
+  grid-area: detail-7;
+}
+
+.treatment-detail-8 {
+  grid-area: detail-8;
+  place-self: center;
+}
+
+.treatment-detail-9 {
+  grid-area: detail-9;
+}
+
+.treatment-detail-10 {
+  grid-area: detail-10;
+  place-self: center;
+}
+
+
+/* CARE */
+
+.care {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(13em, 15em) minmax(5em, 30em);
+  grid-template-rows: repeat(6, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "headline-1 headline-2"
+    "detail-1 detail-2"
+    "detail-3 detail-4"
+    "detail-5 detail-6"
+    "detail-7 detail-8"
+    "detail-9 detail-10"
+    "detail-11 detail-12";
+}
+
+.care-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.care-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.care-detail-1 {
+  grid-area: detail-1;
+}
+
+.care-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.care-detail-3 {
+  grid-area: detail-3;
+}
+
+.care-detail-4 {
+  grid-area: detail-4;
+  place-self: center;
+}
+
+.care-detail-5 {
+  grid-area: detail-5;
+}
+
+.care-detail-6 {
+  grid-area: detail-6;
+  place-self: center;
+}
+
+.care-detail-7 {
+  grid-area: detail-7;
+}
+
+.care-detail-8 {
+  grid-area: detail-8;
+  place-self: center;
+}
+
+.care-detail-9 {
+  grid-area: detail-9;
+}
+
+.care-detail-10 {
+  grid-area: detail-10;
+  place-self: center;
+}
+
+.care-detail-11 {
+  grid-area: detail-11;
+}
+
+.care-detail-12 {
+  grid-area: detail-12;
+  place-self: center;
+}
+
+
+/* STYLING GRID */
+
+h1 {
+  padding: 2em 0;
+}
+
+h2 {
+  padding-bottom: 0.5em;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  padding-bottom: 0.2em;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  padding-bottom: 2em;
+  font-weight: lighter;
+  /* color: rgb(156, 154, 154); */
+}
+
+.span {
+  font-size: 0.5rem;
+}
+
+.euro {
+  font-size: 0.8rem;
+}
+
+.cut,
+.calligraphy,
+.next-generation,
+.color,
+.henne,
+.highlights,
+.balayage,
+.styling,
+.treatment,
+.care {
+  padding-bottom: 5em;
+}
