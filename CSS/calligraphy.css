@@ -1,36 +1,40 @@
-.header-content {
+.header-content-calligraphy {
   /* height: 100vh; */
 }
 
-.header-part {
+.header-part-calligraphy {
   width: 30%;
   justify-content: center;
 }
 
-.header__part+.header__part {
+.header-calligraphy__part+.header-calligraphy__part {
   margin-left: 1em;
 }
 
-.header__part img {
+.header-calligraphy__part img {
   max-width: 50%;
 }
 
-.header-part__headline {
+.header-part-calligraphy__headline {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   padding-top: 1em;
   padding-bottom: 0.5em;
 }
 
-.header-part__text {
+.header-part-calligraphy__text {
   font-size: 0.7rem;
 }
 
-.main-text {
-  padding: 5em 0;
+.main-text-calligraphy {
+  padding: 0;
 }
 
-.main-text h1,
-.main-text p {
+.main-text-calligraphy h1,
+.main-text-calligraphy p {
   padding-bottom: 1em;
+}
+
+.buttons-calligraphy {
+  margin: 2em 0;
 }
