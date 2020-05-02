@@ -4,22 +4,17 @@
 
 .cut {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
-  /* grid-template-columns: minmax(15em, 25em) repeat(3, minmax(5em, 10em)); */
-  grid-template-columns: 2fr repeat(3, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(3, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
-    "detail-5 detail-6 detail-7 detail-8"
-    "... headline-4 headline-5 headline-6"
-    "detail-9 detail-10 detail-11 detail-12"
-    "... headline-7 headline-8 headline-9"
-    "detail-13 detail-14 detail-15 detail-16";
+    "detail-5 detail-6 detail-7 detail-8";
 }
 
 .cut-headline-1 {
@@ -87,51 +82,25 @@
   place-self: center;
 }
 
-.cut-headline-4 {
-  grid-area: headline-4;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  color: rgb(201, 200, 200);
-}
 
-.cut-headline-5 {
-  grid-area: headline-5;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  color: rgb(201, 200, 200);
-}
+/* CALLIGRAPHY */
 
-.cut-headline-6 {
-  grid-area: headline-6;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  color: rgb(201, 200, 200);
-}
-
-.cut-detail-9 {
-  grid-area: detail-9;
-}
-
-.cut-detail-10 {
-  grid-area: detail-10;
-  place-self: center;
-}
-
-.cut-detail-11 {
-  grid-area: detail-11;
-  place-self: center;
-}
-
-.cut-detail-12 {
-  grid-area: detail-12;
-  place-self: center;
+.calligraphy {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4";
 }
 
 .calligraphy-headline-1 {
-  grid-area: headline-7;
+  grid-area: headline-1;
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -140,7 +109,7 @@
 }
 
 .calligraphy-headline-2 {
-  grid-area: headline-8;
+  grid-area: headline-2;
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -149,7 +118,7 @@
 }
 
 .calligraphy-headline-3 {
-  grid-area: headline-9;
+  grid-area: headline-3;
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -158,21 +127,81 @@
 }
 
 .calligraphy-detail-1 {
-  grid-area: detail-13;
+  grid-area: detail-1;
 }
 
 .calligraphy-detail-2 {
-  grid-area: detail-14;
+  grid-area: detail-2;
   place-self: center;
 }
 
 .calligraphy-detail-3 {
-  grid-area: detail-15;
+  grid-area: detail-3;
   place-self: center;
 }
 
 .calligraphy-detail-4 {
-  grid-area: detail-16;
+  grid-area: detail-4;
+  place-self: center;
+}
+
+
+/* NEXT GENERATION */
+
+.next-generation {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: minmax(10em, 14em) repeat(3, minmax(5em, 10em));
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4";
+}
+
+.next-generation-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgb(201, 200, 200);
+}
+
+.next-generation-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgb(201, 200, 200);
+}
+
+.next-generation-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgb(201, 200, 200);
+}
+
+.next-generation-detail-1 {
+  grid-area: detail-1;
+}
+
+.next-generation-detail-2 {
+  grid-area: detail-2;
+  place-self: center;
+}
+
+.next-generation-detail-3 {
+  grid-area: detail-3;
+  place-self: center;
+}
+
+.next-generation-detail-4 {
+  grid-area: detail-4;
   place-self: center;
 }
 
@@ -181,7 +210,6 @@
 
 .color {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
@@ -189,7 +217,8 @@
   grid-template-rows: repeat(4, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
     "detail-9 detail-10 detail-11 detail-12"
@@ -304,7 +333,6 @@
 
 .henne {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
@@ -312,7 +340,8 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4";
 }
 
@@ -367,7 +396,6 @@
 
 .highlights {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
@@ -375,7 +403,8 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
     "detail-9 detail-10 detail-11 detail-12";
@@ -470,7 +499,6 @@
 
 .balayage {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
@@ -478,7 +506,8 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
     "detail-9 detail-10 detail-11 detail-12";
@@ -573,7 +602,6 @@
 
 .styling {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
@@ -581,7 +609,8 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
     "detail-9 detail-10 detail-11 detail-12";
@@ -676,7 +705,6 @@
 
 .treatment {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
@@ -684,7 +712,8 @@
   grid-template-rows: repeat(5, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "headline-1 headline-2"
+  grid-template-areas:
+    "headline-1 headline-2"
     "detail-1 detail-2"
     "detail-3 detail-4"
     "detail-5 detail-6"
@@ -760,7 +789,6 @@
 
 .care {
   padding: 0;
-  margin: 0 auto;
   width: 100%;
   max-width: 600px;
   display: grid;
@@ -768,7 +796,8 @@
   grid-template-rows: repeat(6, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "headline-1 headline-2"
+  grid-template-areas:
+    "headline-1 headline-2"
     "detail-1 detail-2"
     "detail-3 detail-4"
     "detail-5 detail-6"
@@ -852,41 +881,33 @@
 
 /* STYLING GRID */
 
-h1 {
+.container-prices h1 {
   padding: 2em 0;
-  text-align: center;
 }
 
-h2 {
+.container-prices h2 {
   padding-bottom: 0.5em;
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
 }
 
-h3 {
+.container-prices h3 {
   padding-bottom: 0.2em;
   font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-p {
+.container-prices p {
   padding-bottom: 2em;
   font-weight: lighter;
   /* color: rgb(156, 154, 154); */
 }
 
-.container-prices {
-  align-items: center;
-}
-
-.small,
 .span {
   font-size: 0.5rem;
 }
-
 
 .euro {
   font-size: 0.8rem;
@@ -902,5 +923,12 @@ p {
 .styling,
 .treatment,
 .care {
+  padding-bottom: 5em;
+}
+
+/* GENERAL STYLING */
+
+.main-prices {
+  padding-top: 2em;
   padding-bottom: 5em;
 }
