@@ -1,4 +1,4 @@
-.datenschutz {
+.main-datenschutz {
   padding: 2em 0;
 }
 
@@ -6,12 +6,12 @@
   padding: 0.5em 0;
 }
 
-h1,
-h2,
-h3 {
+.main-datenschutz h1,
+.main-datenschutz h2,
+.main-datenschutz h3 {
   padding: 1em 0;
 }
 
-p {
+.main-datenschutz p {
   padding-bottom: 1em;
 }
