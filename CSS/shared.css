@@ -113,7 +113,8 @@ h3 {
 
 .nav__bar {
   align-items: center;
-  padding: 0;
+  padding-top: 5em;
+  padding-bottom: 2em;
   margin: 0;
 }
 
@@ -146,6 +147,7 @@ h3 {
 .nav-text {
   font-size: 0.8em;
   padding-top: 2em;
+  padding-bottom: 5em;
 }
 
 .logo-nav {
