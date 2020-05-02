@@ -35,7 +35,8 @@ h3 {
 }
 
 p,
-div {
+div,
+article {
   color: #8d8d8d;
   margin: 0;
 }

@@ -1,0 +1,14 @@
+.main-presse {
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+
+.main-presse h1,
+.main-presse h2,
+.main-presse h3 {
+  padding: 1em 0;
+}
+
+.main-presse article {
+  padding-bottom: 1em;
+}
