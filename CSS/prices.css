@@ -881,25 +881,25 @@
 
 /* STYLING GRID */
 
-h1 {
+.container-prices h1 {
   padding: 2em 0;
 }
 
-h2 {
+.container-prices h2 {
   padding-bottom: 0.5em;
   font-size: 1.3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-h3 {
+.container-prices h3 {
   padding-bottom: 0.2em;
   font-size: 1.1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-p {
+.container-prices p {
   padding-bottom: 2em;
   font-weight: lighter;
   /* color: rgb(156, 154, 154); */

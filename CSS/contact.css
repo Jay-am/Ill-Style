@@ -1,10 +1,10 @@
-h1,
-h2,
-h3 {
+.main-contact h1,
+.main-contact h2,
+.main-contact h3 {
   padding: 1em 0;
 }
 
-p {
+.main-contact p {
   padding-bottom: 1em;
   line-height: 1.6;
 }
