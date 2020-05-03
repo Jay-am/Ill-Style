@@ -126,6 +126,11 @@ h3 {
   text-decoration: none;
 }
 
+.nav__link {
+  text-decoration: none;
+  color: #b59b87;
+}
+
 .nav__item+.nav__item {
   margin-left: 1.5em;
 }
@@ -133,7 +138,6 @@ h3 {
 .nav__item,
 .nav__item:link,
 .nav__item:visited {
-  color: #b59b87;
   text-decoration: none;
   text-transform: uppercase;
   padding-bottom: 0;
