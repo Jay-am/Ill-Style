@@ -26,57 +26,16 @@
   margin-top: 4em;
 }
 
-.test h2 {
+.slideshow-testimonials h2 {
   text-transform: uppercase;
   text-align: center;
   margin-top: 4em;
 }
 
+
+
+
 /* SLIDESHOW */
-/* 
-
-.testimonial-slideshow {
-  height: 300px;
-  max-width: 1020px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  transform: translate3d(0, 0, 0);
-}
-
-.testimonial-slideshow>div {
-  height: 300px;
-  width: 2526px;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  transform: translate3d(0, 0, 0);
-}
-
-.testimonial-slideshow .mover-1 {
-  animation: moveSlideshow 32s linear infinite;
-}
-
-.testimonial-slideshow .mover-2 {
-  opacity: 0;
-  transition: opacity 0.5s ease-out;
-  background-position: 0 -200px;
-  animation: moveSlideshow 15s linear infinite;
-}
-
-.testimonial-slideshow:hover .mover-2 {
-  opacity: 1;
-}
-
-@keyframes moveSlideshow {
-  100% {
-    transform: translateX(-66.6666%);
-  }
-} */
-
-/* TEST */
 
 @charset "UTF-8";
 
@@ -144,7 +103,7 @@
 }
 
 .cd-testimonials {
-  color: white;
+  color: red;
   text-align: center;
 }
 
@@ -211,8 +170,8 @@
 }
 
 .cd-author .cd-author-info li:last-child {
-  font-size: 0.6rem;
-  color: #6b6b70;
+  font-size: 0.8rem;
+  color: #b59b87;
 }
 
 @media only screen and (min-width: 768px) {
@@ -416,7 +375,7 @@
 .cd-testimonials-all p {
   position: relative;
   background: #79b6e4;
-  color: white;
+  color: red;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
