@@ -2,3 +2,17 @@
   padding-top: 2em;
   padding-bottom: 5em;
 }
+
+.gallerie {
+  display: grid;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1020px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  column-gap: 0.5em;
+  row-gap: 0.5em;
+}
+
+.gallerie-image {}
