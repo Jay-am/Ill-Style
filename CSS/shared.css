@@ -124,6 +124,7 @@ h3 {
   padding: 0;
   list-style: none;
   text-decoration: none;
+  padding-bottom: 0.2625em;
 }
 
 .nav__link {
@@ -133,21 +134,24 @@ h3 {
 
 .nav__item+.nav__item {
   margin-left: 1.5em;
+  padding-bottom: 0.2625em;
 }
 
 .nav__item,
-.nav__item:link,
-.nav__item:visited {
+.nav__link:link,
+.nav__link:visited {
   text-decoration: none;
   text-transform: uppercase;
-  padding-bottom: 0;
+  padding-bottom: 0.2625em;
 }
 
-/* .nav__item:hover,
-.nav__item:active {
-  color: #a1826a;
-  text-decoration: underline;
-} */
+.nav__link:hover,
+.nav__link:active {
+  color: #816149;
+  border-bottom: 1px solid #816149;
+  padding-bottom: 0.2em;
+  transition: ease-in-out 300ms;
+}
 
 .nav-text {
   font-size: 0.8em;
