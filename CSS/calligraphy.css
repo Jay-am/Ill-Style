@@ -1,10 +1,9 @@
 .header-content-calligraphy {
-  /* height: 100vh; */
 }
 
 .header-part-calligraphy {
   width: 30%;
-  justify-content: center;
+  text-align: center;
 }
 
 .header-calligraphy__part + .header-calligraphy__part {
@@ -12,7 +11,7 @@
 }
 
 .header-calligraphy__part img {
-  max-width: 50%;
+  max-width: 15%;
 }
 
 .header-part-calligraphy__headline {
