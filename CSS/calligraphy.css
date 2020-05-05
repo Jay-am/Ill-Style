@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-.header-calligraphy__part+.header-calligraphy__part {
+.header-calligraphy__part + .header-calligraphy__part {
   margin-left: 1em;
 }
 
@@ -27,12 +27,12 @@
 }
 
 .main-text-calligraphy {
-  padding: 0;
+  padding-top: 3em;
 }
 
 .main-text-calligraphy h1,
 .main-text-calligraphy p {
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 .buttons-calligraphy {
