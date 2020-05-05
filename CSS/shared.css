@@ -76,6 +76,14 @@ h3 {
   margin: 0 auto;
 }
 
+/* STARS */
+
+.stared,
+.unstared {
+  color: #b59b87;
+  font-size: 0.7rem;
+}
+
 /* NAVIGATION BAR ALT*/
 
 /* .nav {
