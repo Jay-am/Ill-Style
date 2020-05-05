@@ -39,8 +39,6 @@
 
 /* SLIDESHOW */
 
-@charset "UTF-8";
-
 .cd-testimonials-wrapper,
 .cd-testimonials-wrapper * {
   position: relative;
@@ -51,7 +49,6 @@
   border: 0;
   font-size: 2rem;
   font: inherit;
-  vertical-align: baseline;
 }
 
 .cd-testimonials-wrapper ul {
