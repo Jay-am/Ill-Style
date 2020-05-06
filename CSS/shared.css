@@ -154,7 +154,7 @@ h3 {
 
 .nav__link:hover,
 .nav__link:active {
-  color: #816149;
+  color: #6e5038;
   border-bottom: 1px solid #816149;
   padding-bottom: 0.2em;
   transition: ease-in-out 600ms;
@@ -214,13 +214,13 @@ h3 {
   /* padding-bottom: 0.2625em; */
 }
 
-.legal_link:hover,
+.legal__link:hover,
 .legal__link:active,
-.social_link:hover,
+.social__link:hover,
 .social__link:active {
-  color: #0c0907;
+  color: #6e5038;
   /* border-bottom: 1px solid #816149; */
-  padding-bottom: 0.2em;
+  /* padding-bottom: 0.2em; */
   transition: ease-in-out 600ms;
 }
 
