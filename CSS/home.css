@@ -25,6 +25,14 @@
   border: 1px solid #b59b87;
 }
 
+.extensions-image {
+  position: relative;
+}
+
+.extensions-logo {
+  position: absolut;
+}
+
 .slideshow-testimonials {
   width: 100%;
   display: block;
