@@ -1,9 +1,10 @@
-.prices {
+.intro-prices h1 {
   font-family: "Dancing Script", cursive;
   color: #b59b87;
   font-size: 5em;
   font-weight: lighter;
   margin: 0;
+  padding: 0;
 }
 
 /* GRID LAYOUTS*/
@@ -346,7 +347,8 @@
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
-    /* "... headline-1 headline-2 headline-3" */ "detail-1 detail-2 detail-3 detail-4";
+    /* "... headline-1 headline-2 headline-3" */
+    "detail-1 detail-2 detail-3 detail-4";
 }
 
 /* .henne-headline-1 {
