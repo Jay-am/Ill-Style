@@ -904,11 +904,16 @@
 }
 
 .main-prices h2 {
+  font-family: 'Ruthie', cursive;
+  /* font-family: 'Herr Von Muellerhoff',
+cursive; */
   padding-top: 2em;
   padding-bottom: 0.5em;
-  font-size: 1.3rem;
+  font-size: 2.5rem;
+  color: #b59b87;
+  letter-spacing: 0.2rem;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: left;
 }
 
