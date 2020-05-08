@@ -34,6 +34,8 @@
   left: 0;
 }
 
+/* SLIDESHOW TESTIMONIALS */
+
 .slideshow-testimonials {
   width: 100%;
   display: block;
@@ -45,8 +47,6 @@
   text-align: center;
   margin-top: 4em;
 }
-
-/* SLIDESHOW */
 
 .cd-testimonials-wrapper,
 .cd-testimonials-wrapper * {
