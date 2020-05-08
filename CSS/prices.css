@@ -1,3 +1,11 @@
+.prices {
+  font-family: "Dancing Script", cursive;
+  color: #b59b87;
+  font-size: 5em;
+  font-weight: lighter;
+  margin: 0;
+}
+
 /* GRID LAYOUTS*/
 
 /* CUT */
@@ -15,7 +23,8 @@
   grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
     /* "... headline-4 headline-5 headline-6" */
@@ -200,7 +209,6 @@
   align-self: center;
 }
 
-
 /* COLOR */
 
 .color {
@@ -213,7 +221,8 @@
   grid-template-rows: 0.5fr repeat(3, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
     "detail-9 detail-10 detail-11 detail-12"
@@ -323,7 +332,6 @@
   place-self: center;
 }
 
-
 /* HENNE */
 
 .henne {
@@ -338,8 +346,7 @@
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
-    /* "... headline-1 headline-2 headline-3" */
-    "detail-1 detail-2 detail-3 detail-4";
+    /* "... headline-1 headline-2 headline-3" */ "detail-1 detail-2 detail-3 detail-4";
 }
 
 /* .henne-headline-1 {
@@ -387,7 +394,6 @@
   grid-area: detail-4;
   place-self: center;
 }
-
 
 /* HIGHLIGHTS */
 
@@ -493,7 +499,6 @@
   place-self: center;
 }
 
-
 /* BALAYAGE */
 
 .balayage {
@@ -598,7 +603,6 @@
   place-self: center;
 }
 
-
 /* STYLING */
 
 .styling {
@@ -611,7 +615,8 @@
   grid-template-rows: 0.5fr repeat(3, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "... headline-1 headline-2 headline-3"
+  grid-template-areas:
+    "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
     "detail-9 detail-10 detail-11 detail-12";
@@ -701,7 +706,6 @@
   place-self: center;
 }
 
-
 /* TREATMENT */
 
 .treatment {
@@ -714,7 +718,8 @@
   grid-template-rows: 0.5fr repeat(5, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "headline-1 headline-2"
+  grid-template-areas:
+    "headline-1 headline-2"
     "detail-1 detail-2"
     "detail-3 detail-4"
     "detail-5 detail-6"
@@ -785,7 +790,6 @@
   place-self: center;
 }
 
-
 /* CARE */
 
 .care {
@@ -798,7 +802,8 @@
   grid-template-rows: 0.5fr repeat(6, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
-  grid-template-areas: "headline-1 headline-2"
+  grid-template-areas:
+    "headline-1 headline-2"
     "detail-1 detail-2"
     "detail-3 detail-4"
     "detail-5 detail-6"
@@ -879,7 +884,6 @@
   place-self: center;
 }
 
-
 /* STYLING GRID */
 
 .container-prices {
@@ -929,7 +933,6 @@
 .span {
   font-size: 0.5rem;
 }
-
 
 .euro {
   font-size: 0.8rem;
