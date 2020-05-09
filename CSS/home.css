@@ -43,9 +43,12 @@
 }
 
 .slideshow-testimonials h2 {
-  text-transform: uppercase;
+  font-family: 'Ruthie', cursive;
+  /* font-family: 'Herr Von Muellerhoff', cursive;
+  text-transform: uppercase; */
+  font-size: 2.5em;
   text-align: center;
-  margin: 2em auto;
+  margin: 0 auto;
 }
 
 .cd-testimonials-wrapper,
