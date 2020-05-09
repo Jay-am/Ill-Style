@@ -48,6 +48,7 @@
   text-transform: uppercase; */
   font-size: 2.5em;
   color: #b59b87;
+  letter-spacing: 0.1rem;
   text-align: center;
   margin: 0 auto;
 }
