@@ -119,11 +119,19 @@ h3 {
   background: #fff;
 }
 
+.logo-nav {
+  width: 6em;
+  margin: 0 auto;
+}
+
+.nav-text {
+  text-align: center;
+}
+
 .nav__bar {
-  align-items: center;
   padding-top: 5em;
   padding-bottom: 2em;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .nav__list {
@@ -140,8 +148,8 @@ h3 {
   font-size: 1em;
 }
 
-.nav__item + .nav__item {
-  margin-left: 2em;
+.nav__item+.nav__item {
+  margin-left: 1em;
   padding-bottom: 0.2625em;
 }
 
@@ -167,9 +175,6 @@ h3 {
   padding-bottom: 5em;
 }
 
-.logo-nav {
-  width: 6em;
-}
 
 /* FOOTER */
 
@@ -189,7 +194,7 @@ h3 {
   /* padding-bottom: 0.2625em; */
 }
 
-.footer__item + .footer__item {
+.footer__item+.footer__item {
   margin-left: 1.5em;
 }
 
