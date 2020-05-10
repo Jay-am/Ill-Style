@@ -7,12 +7,12 @@
 }
 
 .slideshow-testimonials h2 {
-  font-family: 'Ruthie', cursive;
-  /* font-family: 'Herr Von Muellerhoff', cursive;
-  text-transform: uppercase; */
+  /* font-family: 'Ruthie', cursive;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  text-transform: capitalize;
   font-size: 2.5em;
   color: #b59b87;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem; */
   text-align: center;
   margin: 0 auto;
 }
