@@ -913,7 +913,7 @@ cursive; */
   color: #b59b87;
   letter-spacing: 0.2rem;
   font-weight: bold;
-  /* text-transform: uppercase; */
+  text-transform: capitalize;
   text-align: left;
 }
 
