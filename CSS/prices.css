@@ -9,22 +9,22 @@
   max-width: 600px;
   display: grid;
   grid-template-columns: 55% repeat(3, 15%);
-  grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr repeat(6, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
     "... headline-1 headline-2 headline-3"
     "detail-1 detail-2 detail-3 detail-4"
     "detail-5 detail-6 detail-7 detail-8"
-    /* "... headline-4 headline-5 headline-6" */
     "detail-9 detail-10 detail-11 detail-12"
-    /* "... headline-7 headline-8 headline-9" */
-    "detail-13 detail-14 detail-15 detail-16";
+    "detail-13 detail-14 detail-15 detail-16"
+    "detail-17 detail-18 detail-19 detail-20"
+    "detail-21 detail-22 detail-23 detail-24";
 }
 
 .cut-headline-1 {
   grid-area: headline-1;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -34,7 +34,7 @@
 
 .cut-headline-2 {
   grid-area: headline-2;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -44,7 +44,7 @@
 
 .cut-headline-3 {
   grid-area: headline-3;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -59,19 +59,19 @@
 
 .cut-detail-2 {
   grid-area: detail-2;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
 
 .cut-detail-3 {
   grid-area: detail-3;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
 
 .cut-detail-4 {
   grid-area: detail-4;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
 
@@ -82,45 +82,21 @@
 
 .cut-detail-6 {
   grid-area: detail-6;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
 
 .cut-detail-7 {
   grid-area: detail-7;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
 
 .cut-detail-8 {
   grid-area: detail-8;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
-
-/* .cut-headline-4 {
-  grid-area: headline-4;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  color: rgb(201, 200, 200);
-}
-
-.cut-headline-5 {
-  grid-area: headline-5;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  color: rgb(201, 200, 200);
-}
-
-.cut-headline-6 {
-  grid-area: headline-6;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  color: rgb(201, 200, 200);
-} */
 
 .cut-detail-9 {
   grid-area: detail-9;
@@ -129,72 +105,88 @@
 
 .cut-detail-10 {
   grid-area: detail-10;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
-  text-align: center;
 }
 
 .cut-detail-11 {
   grid-area: detail-11;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
-  text-align: center;
 }
 
 .cut-detail-12 {
   grid-area: detail-12;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
-  text-align: center;
 }
 
-/* .calligraphy-headline-1 {
-  grid-area: headline-7;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  text-transform: uppercase;
-  color: rgb(201, 200, 200);
-}
-
-.calligraphy-headline-2 {
-  grid-area: headline-8;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  text-transform: uppercase;
-  color: rgb(201, 200, 200);
-}
-
-.calligraphy-headline-3 {
-  grid-area: headline-9;
-  place-self: center;
-  font-size: 0.7rem;
-  font-weight: lighter;
-  text-transform: uppercase;
-  color: rgb(201, 200, 200);
-} */
-
-.calligraphy-detail-1 {
+.cut-detail-13 {
   grid-area: detail-13;
   align-self: center;
 }
 
-.calligraphy-detail-2 {
+.cut-detail-14 {
   grid-area: detail-14;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
 
-.calligraphy-detail-3 {
+.cut-detail-15 {
   grid-area: detail-15;
-  justify-self: center;
+  justify-self: end;
   align-self: center;
 }
 
-.calligraphy-detail-4 {
+.cut-detail-16 {
   grid-area: detail-16;
-  justify-self: center;
+  justify-self: end;
+  align-self: center;
+}
+
+.cut-detail-17 {
+  grid-area: detail-17;
+  align-self: center;
+}
+
+.cut-detail-18 {
+  grid-area: detail-18;
+  justify-self: end;
+  align-self: center;
+}
+
+.cut-detail-19 {
+  grid-area: detail-19;
+  justify-self: end;
+  align-self: center;
+}
+
+.cut-detail-20 {
+  grid-area: detail-20;
+  justify-self: end;
+  align-self: center;
+}
+
+.cut-detail-21 {
+  grid-area: detail-21;
+  align-self: center;
+}
+
+.cut-detail-22 {
+  grid-area: detail-22;
+  justify-self: end;
+  align-self: center;
+}
+
+.cut-detail-23 {
+  grid-area: detail-23;
+  justify-self: end;
+  align-self: center;
+}
+
+.cut-detail-24 {
+  grid-area: detail-24;
+  justify-self: end;
   align-self: center;
 }
 
@@ -220,7 +212,7 @@
 
 .color-headline-1 {
   grid-area: headline-1;
-  place-self: center;
+  justify-self: end;
   font-size: 0.7rem;
   font-weight: lighter;
   text-transform: uppercase;
@@ -229,7 +221,7 @@
 
 .color-headline-2 {
   grid-area: headline-2;
-  place-self: center;
+  justify-self: end;
   font-size: 0.7rem;
   font-weight: lighter;
   text-transform: uppercase;
@@ -238,7 +230,7 @@
 
 .color-headline-3 {
   grid-area: headline-3;
-  place-self: center;
+  justify-self: end;
   font-size: 0.7rem;
   font-weight: lighter;
   text-transform: uppercase;
@@ -251,17 +243,17 @@
 
 .color-detail-2 {
   grid-area: detail-2;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-3 {
   grid-area: detail-3;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-4 {
   grid-area: detail-4;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-5 {
@@ -270,17 +262,17 @@
 
 .color-detail-6 {
   grid-area: detail-6;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-7 {
   grid-area: detail-7;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-8 {
   grid-area: detail-8;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-9 {
@@ -289,17 +281,17 @@
 
 .color-detail-10 {
   grid-area: detail-10;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-11 {
   grid-area: detail-11;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-12 {
   grid-area: detail-12;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-13 {
@@ -308,17 +300,17 @@
 
 .color-detail-14 {
   grid-area: detail-14;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-15 {
   grid-area: detail-15;
-  place-self: center;
+  justify-self: end;
 }
 
 .color-detail-16 {
   grid-area: detail-16;
-  place-self: center;
+  justify-self: end;
 }
 
 /* HENNE */
@@ -330,8 +322,7 @@
   max-width: 600px;
   display: grid;
   grid-template-columns: 55% repeat(3, 15%);
-  /* grid-template-rows: 0.5fr 1fr; */
-  grid-template-rows: 1fr;
+  grid-template-rows: 0.5fr 1fr;
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
@@ -372,17 +363,17 @@
 
 .henne-detail-2 {
   grid-area: detail-2;
-  place-self: center;
+  justify-self: end;
 }
 
 .henne-detail-3 {
   grid-area: detail-3;
-  place-self: center;
+  justify-self: end;
 }
 
 .henne-detail-4 {
   grid-area: detail-4;
-  place-self: center;
+  justify-self: end;
 }
 
 /* HIGHLIGHTS */
@@ -394,7 +385,6 @@
   max-width: 600px;
   display: grid;
   grid-template-columns: 55% repeat(3, 15%);
-  /* grid-template-rows: 0.5fr repeat(3, 1fr); */
   grid-template-rows: repeat(3, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
@@ -438,17 +428,17 @@
 
 .highlights-detail-2 {
   grid-area: detail-2;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-3 {
   grid-area: detail-3;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-4 {
   grid-area: detail-4;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-5 {
@@ -457,17 +447,17 @@
 
 .highlights-detail-6 {
   grid-area: detail-6;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-7 {
   grid-area: detail-7;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-8 {
   grid-area: detail-8;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-9 {
@@ -476,17 +466,17 @@
 
 .highlights-detail-10 {
   grid-area: detail-10;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-11 {
   grid-area: detail-11;
-  place-self: center;
+  justify-self: end;
 }
 
 .highlights-detail-12 {
   grid-area: detail-12;
-  place-self: center;
+  justify-self: end;
 }
 
 /* BALAYAGE */
@@ -498,7 +488,6 @@
   max-width: 600px;
   display: grid;
   grid-template-columns: 55% repeat(3, 15%);
-  /* grid-template-rows: 0.5fr repeat(3, 1fr); */
   grid-template-rows: repeat(3, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
@@ -542,17 +531,17 @@
 
 .balayage-detail-2 {
   grid-area: detail-2;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-3 {
   grid-area: detail-3;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-4 {
   grid-area: detail-4;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-5 {
@@ -561,17 +550,17 @@
 
 .balayage-detail-6 {
   grid-area: detail-6;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-7 {
   grid-area: detail-7;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-8 {
   grid-area: detail-8;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-9 {
@@ -580,17 +569,17 @@
 
 .balayage-detail-10 {
   grid-area: detail-10;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-11 {
   grid-area: detail-11;
-  place-self: center;
+  justify-self: end;
 }
 
 .balayage-detail-12 {
   grid-area: detail-12;
-  place-self: center;
+  justify-self: end;
 }
 
 /* STYLING */
@@ -614,7 +603,7 @@
 
 .styling-headline-1 {
   grid-area: headline-1;
-  place-self: center;
+  justify-self: end;
   font-size: 0.7rem;
   font-weight: lighter;
   text-transform: uppercase;
@@ -623,7 +612,7 @@
 
 .styling-headline-2 {
   grid-area: headline-2;
-  place-self: center;
+  justify-self: end;
   font-size: 0.7rem;
   font-weight: lighter;
   text-transform: uppercase;
@@ -632,7 +621,7 @@
 
 .styling-headline-3 {
   grid-area: headline-3;
-  place-self: center;
+  justify-self: end;
   font-size: 0.7rem;
   font-weight: lighter;
   text-transform: uppercase;
@@ -645,17 +634,17 @@
 
 .styling-detail-2 {
   grid-area: detail-2;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-3 {
   grid-area: detail-3;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-4 {
   grid-area: detail-4;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-5 {
@@ -664,17 +653,17 @@
 
 .styling-detail-6 {
   grid-area: detail-6;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-7 {
   grid-area: detail-7;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-8 {
   grid-area: detail-8;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-9 {
@@ -683,17 +672,17 @@
 
 .styling-detail-10 {
   grid-area: detail-10;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-11 {
   grid-area: detail-11;
-  place-self: center;
+  justify-self: end;
 }
 
 .styling-detail-12 {
   grid-area: detail-12;
-  place-self: center;
+  justify-self: end;
 }
 
 /* TREATMENT */
@@ -750,7 +739,7 @@
 
 .treatment-detail-2 {
   grid-area: detail-2;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-3 {
@@ -759,7 +748,7 @@
 
 .treatment-detail-4 {
   grid-area: detail-4;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-5 {
@@ -768,7 +757,7 @@
 
 .treatment-detail-6 {
   grid-area: detail-6;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-7 {
@@ -777,7 +766,7 @@
 
 .treatment-detail-8 {
   grid-area: detail-8;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-9 {
@@ -786,7 +775,7 @@
 
 .treatment-detail-10 {
   grid-area: detail-10;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-11 {
@@ -795,7 +784,7 @@
 
 .treatment-detail-12 {
   grid-area: detail-12;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-13 {
@@ -804,7 +793,7 @@
 
 .treatment-detail-14 {
   grid-area: detail-14;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-15 {
@@ -813,7 +802,7 @@
 
 .treatment-detail-16 {
   grid-area: detail-16;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-17 {
@@ -822,7 +811,7 @@
 
 .treatment-detail-18 {
   grid-area: detail-18;
-  place-self: center;
+  justify-self: end;
 }
 
 .treatment-detail-19 {
@@ -831,7 +820,7 @@
 
 .treatment-detail-20 {
   grid-area: detail-20;
-  place-self: center;
+  justify-self: end;
 }
 
 
@@ -891,7 +880,7 @@
 
 .care-detail-2 {
   grid-area: detail-2;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-3 {
@@ -900,7 +889,7 @@
 
 .care-detail-4 {
   grid-area: detail-4;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-5 {
@@ -909,7 +898,7 @@
 
 .care-detail-6 {
   grid-area: detail-6;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-7 {
@@ -918,7 +907,7 @@
 
 .care-detail-8 {
   grid-area: detail-8;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-9 {
@@ -927,7 +916,7 @@
 
 .care-detail-10 {
   grid-area: detail-10;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-11 {
@@ -936,7 +925,7 @@
 
 .care-detail-12 {
   grid-area: detail-12;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-13 {
@@ -945,7 +934,7 @@
 
 .care-detail-14 {
   grid-area: detail-14;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-15 {
@@ -954,7 +943,7 @@
 
 .care-detail-16 {
   grid-area: detail-16;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-17 {
@@ -963,7 +952,7 @@
 
 .care-detail-18 {
   grid-area: detail-18;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-19 {
@@ -972,7 +961,7 @@
 
 .care-detail-20 {
   grid-area: detail-20;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-21 {
@@ -981,7 +970,7 @@
 
 .care-detail-22 {
   grid-area: detail-22;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-23 {
@@ -990,7 +979,7 @@
 
 .care-detail-24 {
   grid-area: detail-24;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-25 {
@@ -999,7 +988,7 @@
 
 .care-detail-26 {
   grid-area: detail-26;
-  place-self: center;
+  justify-self: end;
 }
 
 .care-detail-27 {
@@ -1008,7 +997,7 @@
 
 .care-detail-28 {
   grid-area: detail-28;
-  place-self: center;
+  justify-self: end;
 }
 
 /* GENERAL STYLING */
@@ -1075,8 +1064,13 @@
   font-size: 0.5rem;
 }
 
+.thin {
+  font-weight: lighter;
+}
+
 .kleingedruckt {
-  font-size: 0.3rem;
+  font-size: 0.5rem;
+  padding-bottom: 1em;
 }
 
 .euro {
