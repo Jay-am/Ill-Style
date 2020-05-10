@@ -3,18 +3,22 @@
   padding-bottom: 5em;
 }
 
-.main-contact h1,
-.main-contact h2,
-.main-contact h3 {
-  padding: 1em 0;
-}
-
 .main-contact p {
   padding-bottom: 1em;
   line-height: 1.6;
 }
 
 .contact {
+  margin-bottom: 2em;
+}
+
+.open-hours h2 {
+  margin-bottom: 1em;
+}
+
+.open {
+  list-style: none;
+  padding: 0;
   margin-bottom: 2em;
 }
 

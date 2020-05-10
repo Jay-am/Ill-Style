@@ -38,6 +38,8 @@ h3 {
 
 p,
 div,
+ul,
+li,
 article {
   color: #8d8d8d;
   margin: 0;
@@ -50,6 +52,7 @@ h1 {
 
 h2 {
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 h3 {
