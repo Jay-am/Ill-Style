@@ -1,12 +1,3 @@
-.intro-prices h1 {
-  font-family: "Dancing Script", cursive;
-  color: #b59b87;
-  font-size: 5em;
-  font-weight: lighter;
-  margin: 0;
-  padding: 0;
-}
-
 /* GRID LAYOUTS*/
 
 /* CUT */
@@ -713,17 +704,17 @@
   width: 100%;
   max-width: 600px;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 55% repeat(3, 15%);
   grid-template-rows: 0.5fr repeat(5, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
-    "headline-1 headline-2"
-    "detail-1 detail-2"
-    "detail-3 detail-4"
-    "detail-5 detail-6"
-    "detail-7 detail-8"
-    "detail-9 detail-10";
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8"
+    "detail-9 detail-10 detail-11 detail-12"
+    "detail-13 detail-14 detail-15 detail-16"
+    "detail-17 detail-18 detail-19 detail-20";
 }
 
 .treatment-headline-1 {
@@ -737,6 +728,15 @@
 
 .treatment-headline-2 {
   grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.treatment-headline-3 {
+  grid-area: headline-3;
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -789,6 +789,52 @@
   place-self: center;
 }
 
+.treatment-detail-11 {
+  grid-area: detail-11;
+}
+
+.treatment-detail-12 {
+  grid-area: detail-12;
+  place-self: center;
+}
+
+.treatment-detail-13 {
+  grid-area: detail-13;
+}
+
+.treatment-detail-14 {
+  grid-area: detail-14;
+  place-self: center;
+}
+
+.treatment-detail-15 {
+  grid-area: detail-15;
+}
+
+.treatment-detail-16 {
+  grid-area: detail-16;
+  place-self: center;
+}
+
+.treatment-detail-17 {
+  grid-area: detail-17;
+}
+
+.treatment-detail-18 {
+  grid-area: detail-18;
+  place-self: center;
+}
+
+.treatment-detail-19 {
+  grid-area: detail-19;
+}
+
+.treatment-detail-20 {
+  grid-area: detail-20;
+  place-self: center;
+}
+
+
 /* CARE */
 
 .care {
@@ -797,19 +843,19 @@
   width: 100%;
   max-width: 600px;
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 55% repeat(3, 15%);
   grid-template-rows: 0.5fr repeat(7, 1fr);
   column-gap: 0.2em;
   row-gap: 0.2em;
   grid-template-areas:
-    "headline-1 headline-2"
-    "detail-1 detail-2"
-    "detail-3 detail-4"
-    "detail-5 detail-6"
-    "detail-7 detail-8"
-    "detail-9 detail-10"
-    "detail-11 detail-12"
-    "detail-13 detail-14";
+    "... headline-1 headline-2 headline-3"
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8"
+    "detail-9 detail-10 detail-11 detail-12"
+    "detail-13 detail-14 detail-15 detail-16"
+    "detail-17 detail-18 detail-19 detail-20"
+    "detail-21 detail-22 detail-23 detail-24"
+    "detail-25 detail-26 detail-27 detail-28";
 }
 
 .care-headline-1 {
@@ -823,6 +869,15 @@
 
 .care-headline-2 {
   grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.care-headline-3 {
+  grid-area: headline-3;
   place-self: center;
   font-size: 0.7rem;
   font-weight: lighter;
@@ -893,6 +948,77 @@
   place-self: center;
 }
 
+.care-detail-15 {
+  grid-area: detail-15;
+}
+
+.care-detail-16 {
+  grid-area: detail-16;
+  place-self: center;
+}
+
+.care-detail-17 {
+  grid-area: detail-17;
+}
+
+.care-detail-18 {
+  grid-area: detail-18;
+  place-self: center;
+}
+
+.care-detail-19 {
+  grid-area: detail-19;
+}
+
+.care-detail-20 {
+  grid-area: detail-20;
+  place-self: center;
+}
+
+.care-detail-21 {
+  grid-area: detail-21;
+}
+
+.care-detail-22 {
+  grid-area: detail-22;
+  place-self: center;
+}
+
+.care-detail-23 {
+  grid-area: detail-23;
+}
+
+.care-detail-24 {
+  grid-area: detail-24;
+  place-self: center;
+}
+
+.care-detail-25 {
+  grid-area: detail-25;
+}
+
+.care-detail-26 {
+  grid-area: detail-26;
+  place-self: center;
+}
+
+.care-detail-27 {
+  grid-area: detail-27;
+}
+
+.care-detail-28 {
+  grid-area: detail-28;
+  place-self: center;
+}
+
+/* GENERAL STYLING */
+
+.main-prices {
+  padding-top: 3em;
+  padding-bottom: 5em;
+  align-items: center;
+}
+
 /* STYLING GRID */
 
 .container-prices {
@@ -901,9 +1027,14 @@
   margin: 0 auto;
 }
 
-.main-prices {
-  align-items: center;
-}
+/* .intro-prices h1 {
+  font-family: "Dancing Script", cursive;
+  color: #b59b87;
+  font-size: 5em;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+} */
 
 .main-prices h1 {
   padding-bottom: 3em;
@@ -912,20 +1043,12 @@
 
 .main-prices h2 {
   font-family: 'Ruthie', cursive;
-  /* font-family: 'Herr Von Muellerhoff',
-cursive; */
-  /* padding-top: 1em;
-  padding-bottom: 0.5em; */
   font-size: 2.5rem;
   color: #b59b87;
   letter-spacing: 0.2rem;
   font-weight: bold;
   text-transform: capitalize;
   text-align: left;
-}
-
-.h2-cut {
-  padding-bottom: 0;
 }
 
 .main-prices h3 {
@@ -943,9 +1066,17 @@ cursive; */
   /* color: rgb(156, 154, 154); */
 }
 
+.h2-cut {
+  padding-bottom: 0;
+}
+
 .small,
 .span {
   font-size: 0.5rem;
+}
+
+.kleingedruckt {
+  font-size: 0.3rem;
 }
 
 .euro {
@@ -963,11 +1094,4 @@ cursive; */
 .treatment,
 .care {
   padding-bottom: 3em;
-}
-
-/* GENERAL STYLING */
-
-.main-prices {
-  padding-top: 3em;
-  padding-bottom: 5em;
 }
