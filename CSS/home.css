@@ -4,6 +4,11 @@
   padding-bottom: 5em;
 }
 
+.extensions-image {
+  width: 100vw;
+  margin: 1em 0;
+}
+
 .meaning {
   list-style: none;
   text-decoration: none;
