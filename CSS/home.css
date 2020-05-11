@@ -122,7 +122,7 @@
 }
 
 .service:hover .grid-image img {
-  filter: blur(1px);
+  filter: blur(1.5px);
 }
 
 
@@ -133,6 +133,6 @@
   }
 
   .grid-image img {
-    filter: blur(1px);
+    filter: blur(1.5px);
   }
 }
