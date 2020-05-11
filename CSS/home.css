@@ -94,8 +94,12 @@
 }
 
 .service-title {
-  font-size: 1.5em;
-  font-weight: bold;
+  font-family: 'Ruthie', cursive;
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: white;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
   text-decoration: none;
   z-index: 1;
   position: absolute;
@@ -106,7 +110,6 @@
   opacity: 0;
   transition: opacity .5s;
   background: rgba(#b59b87, 0.05);
-  color: white;
 
   /* position the text in t’ middle*/
   display: flex;
@@ -119,7 +122,7 @@
 }
 
 .service:hover .grid-image img {
-  filter: blur(0.5px);
+  filter: blur(1px);
 }
 
 
@@ -130,6 +133,6 @@
   }
 
   .grid-image img {
-    filter: blur(0.5px);
+    filter: blur(1px);
   }
 }
