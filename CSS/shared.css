@@ -193,10 +193,6 @@ cursive; */
 
 /* FOOTER */
 
-.footer__content {
-  /* padding-bottom: 0.2625em; */
-}
-
 .footer__container {
   border-top: 1px solid #b59b87;
   padding: 5em 0;
@@ -289,8 +285,8 @@ cursive; */
 
 @media (min-width: 600px) {
   body {
-    /* margin: 10% 10%;
-    border: 1px solid #b59b87; */
+    margin: 10% 10%;
+    /* border: 1px solid #b59b87; */
   }
 }
 

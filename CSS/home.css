@@ -1,16 +1,10 @@
 .main-home {
-  width: 100%;
   padding-top: 2em;
   padding-bottom: 5em;
 }
 
-.hero {
+/* .hero {
   background-image: url(Great-Lengths-Hair-Extensions-balayage-e1402367451843.jpg);
-}
-
-/* .extensions-image {
-  width: 100vw;
-  margin: 1em 0;
 } */
 
 .meaning {
@@ -25,17 +19,60 @@
   width: 100%;
 }
 
-.service {
-  display: block;
+/* GRID */
+
+.grid-image {
   width: 100%;
 }
 
-.service a {
-  display: block;
-  width: 100%;
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 0.5em;
 }
 
-.service-image {
-  width: 30%;
-  border: 1px solid #b59b87;
+.cut {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.calligraphy {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.color {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.styling {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.organic-products {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.make-up {
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.extensions {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.spa {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.wedding {
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
 }

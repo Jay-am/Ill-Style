@@ -1,12 +1,9 @@
-.header-content-calligraphy {
-}
-
 .header-part-calligraphy {
   width: 30%;
   text-align: center;
 }
 
-.header-calligraphy__part + .header-calligraphy__part {
+.header-calligraphy__part+.header-calligraphy__part {
   margin-left: 1em;
 }
 
@@ -46,6 +43,6 @@
   width: 50%;
 }
 
-.text-box + .text-box {
+.text-box+.text-box {
   margin-left: 3em;
 }
