@@ -78,7 +78,7 @@
 }
 
 /* BLUR EFFECT */
-/* .service {
+.service {
   position: relative;
 }
 
@@ -105,11 +105,11 @@
   left: 0;
   opacity: 0;
   transition: opacity .5s;
-  background: rgba(90, 0, 10, 0.4);
+  background: rgba(#b59b87, 0.05);
   color: white;
 
   /* position the text in t’ middle*/
-/* display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -119,17 +119,17 @@
 }
 
 .service:hover .grid-image img {
-  filter: blur(2px);
-} */
+  filter: blur(0.5px);
+}
 
 
 /* for touch screen devices */
-/* @media (hover: none) {
+@media (hover: none) {
   .service-title {
     opacity: 1;
   }
 
   .grid-image img {
-    filter: blur(2px);
+    filter: blur(0.5px);
   }
-} */
+}
