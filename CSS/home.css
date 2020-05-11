@@ -4,10 +4,14 @@
   padding-bottom: 5em;
 }
 
-.extensions-image {
+.hero {
+  background-image: url(Great-Lengths-Hair-Extensions-balayage-e1402367451843.jpg);
+}
+
+/* .extensions-image {
   width: 100vw;
   margin: 1em 0;
-}
+} */
 
 .meaning {
   list-style: none;
