@@ -3,9 +3,9 @@
   padding-bottom: 5em;
 }
 
-/* .hero {
-  background-image: url(Great-Lengths-Hair-Extensions-balayage-e1402367451843.jpg);
-} */
+.hero {
+  background: url(../Images/Great\ Lenghts/Great Lenghts/Great-Lengths-Hair-Extensions-balayage-e1402367451843.jpg);
+}
 
 .meaning {
   list-style: none;
@@ -14,10 +14,9 @@
   margin: 0;
 }
 
-/* .primary-content {
-  display: block;
-  width: 100%;
-} */
+.primary-content {
+  margin: 1em 0;
+}
 
 /* GRID */
 
