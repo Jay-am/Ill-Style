@@ -64,7 +64,7 @@ h3 {
   /* font-family: 'Herr Von Muellerhoff', cursive; */
   font-size: 2.5em;
   font-weight: lighter;
-  color: #b59b87;
+  color: #d3b7a7;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
 }
@@ -173,14 +173,14 @@ h3 {
 
 .nav__link {
   text-decoration: none;
-  color: #b59b87;
+  color: #d3b7a7;
   font-size: 1em;
 }
 
 .nav__link--button {
-  background: #b59b87;
+  background: #d3b7a7;
   color: #fff;
-  border: 1px solid #b59b87;
+  border: 1px solid #d3b7a7;
   border-radius: 60rem;
   padding: 0.25em 1em;
 }
@@ -205,9 +205,9 @@ h3 {
 /* BUTTONS */
 
 .btn--termin {
-  background: #b59b87;
+  background: #d3b7a7;
   padding: 0.75em 1.5em;
-  border: 1px solid #b59b87;
+  border: 1px solid #d3b7a7;
   border-radius: 60em;
   color: #fff;
   text-decoration: none;
@@ -224,9 +224,10 @@ h3 {
 
 .btn--kontakt {
   padding: 0.75em 1.5em;
-  border: 1px solid #b59b87;
+  border: 1px solid #d3b7a7;
   border-radius: 60em;
-  color: #b59b87;
+  color: #d3b7a7;
+  ;
   text-decoration: none;
   box-shadow: 2px 2px 10px 0px rgb(209, 208, 208);
   margin: 0.5em 0;
@@ -234,7 +235,7 @@ h3 {
 
 .btn--kontakt:hover,
 .btn--kontakt:active {
-  background: #b59b87;
+  background: #d3b7a7;
   color: #fff;
   box-shadow: 2px 2px 10px 2px rgb(209, 208, 208);
 }
@@ -242,7 +243,7 @@ h3 {
 /* FOOTER */
 
 .footer__container {
-  border-top: 1px solid #b59b87;
+  border-top: 1px solid #d3b7a7;
   padding: 3em 0 0.5em 0;
 }
 
@@ -288,7 +289,7 @@ h3 {
 .legal__link:visited,
 .social__link:link,
 .social__link:visited {
-  color: #b59b87;
+  color: #d3b7a7;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -324,7 +325,7 @@ h3 {
 
   body {
     margin: 5% 8%;
-    border: 1px solid #b59b87;
+    border: 1px solid #d3b7a7;
   }
 
   .container {
@@ -419,7 +420,7 @@ h3 {
 
   body {
     margin: 5% 12%;
-    border: 1px solid #b59b87;
+    border: 1px solid #d3b7a7;
   }
 
   .container {
@@ -436,7 +437,7 @@ h3 {
 
   body {
     margin: 8% 20%;
-    border: 1px solid #b59b87;
+    border: 1px solid #d3b7a7;
   }
 
   .container {
