@@ -2,7 +2,7 @@
 
 .stared,
 .unstared {
-  color: #b59b87;
+  color: #d3b7a7;
   font-size: 0.7rem;
 }
 
@@ -162,7 +162,8 @@
 
 .cd-author .cd-author-info li:last-child {
   font-size: 0.6rem;
-  color: #6b6b70;
+  color: #8d8d8d;
+  ;
 }
 
 @media (min-width: 900px) {
@@ -297,7 +298,7 @@
   background-color: #252527;
   text-align: center;
   text-transform: uppercase;
-  color: #6b6b70;
+  color: #8d8d8d;
   font-weight: 700;
   font-size: 0.75rem;
   -webkit-transition: color, 0.2s;
@@ -364,7 +365,7 @@
 
 .cd-testimonials-all p {
   position: relative;
-  background: #79b6e4;
+  background: #8d8d8d;
   color: white;
   padding: 1em;
   -webkit-font-smoothing: antialiased;
@@ -383,7 +384,7 @@
   height: 0;
   width: 0;
   border: 8px solid transparent;
-  border-top-color: #79b6e4;
+  border-top-color: #8d8d8d;
 }
 
 .cd-testimonials-all .cd-author {
