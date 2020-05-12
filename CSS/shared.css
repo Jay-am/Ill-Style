@@ -129,7 +129,7 @@ h3 {
   display: block;
   margin: 0 auto;
   height: 3px;
-  background: black;
+  background: #756d6d;
 }
 
 .hamburger::before,
@@ -347,6 +347,10 @@ h3 {
 
   /* NAV */
 
+  .nav__logo {
+    margin: 1em auto 0.5em auto;
+    }
+
   .nav-toggle {
     display: none;
   }
@@ -400,7 +404,7 @@ h3 {
   .footer__container {
     display: flex;
     margin: 0 auto;
-    padding: 4em 0 0.5em 0;
+    padding: 4em 0 0 0;
   }
 
   .footer__item+.footer__item {
