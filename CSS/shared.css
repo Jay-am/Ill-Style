@@ -168,7 +168,7 @@ h3 {
   list-style: none;
   text-align: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 1em 0 0 0;
 }
 
 .nav__link {
@@ -377,7 +377,7 @@ h3 {
   }
 
   .nav__content {
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
   }
 
   .nav__list--primary {
@@ -385,7 +385,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     padding: 0 0 0.2625em 0;
-    margin: 0 0 1em 0;
+    margin: 0 0 0.3em 0;
   }
 
   .nav__item+.nav__item {
