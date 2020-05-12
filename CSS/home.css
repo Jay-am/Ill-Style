@@ -135,6 +135,10 @@
 
 @media (min-width: 900px) {
 
+  .main-home {
+    padding-top: 4em;
+  }
+
   /* GRID */
 
   .image-grid {
