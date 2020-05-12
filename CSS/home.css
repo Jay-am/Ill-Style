@@ -1,31 +1,85 @@
 /* GENERAL */
 
-  .main-home {
-    padding-top: 2em;
-    padding-bottom: 5em;
-  }
+.main-home {
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
 
-  .hero {
-    background: url(../Images/Great\ Lenghts/Great Lenghts/Great-Lengths-Hair-Extensions-balayage-e1402367451843.jpg);
-  }
+.hero {
+  background: url(../Images/Great\ Lenghts/Great Lenghts/Great-Lengths-Hair-Extensions-balayage-e1402367451843.jpg);
+}
 
-  .meaning {
-    list-style: none;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-  }
+.meaning {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
 
-  .primary-content {
-    margin: 1em 0;
-  }
+.primary-content {
+  margin: 1em 0;
+}
+
+/* GRID */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* BLUR EFFECT */
+
+.service {
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.grid-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.grid-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.service-title {
+  font-family: 'Ruthie', cursive;
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: white;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(#b59b87, 0.05);
+
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service:hover .service-title {
+  opacity: 1;
+}
+
+.service:hover .grid-image img {
+  filter: blur(1.5px);
+}
+
+@media (min-width: 600px) {
 
   /* GRID */
-
-  .section-title {
-    text-align: center;
-    margin-bottom: 2em;
-  }
 
   .image-grid {
     display: grid;
@@ -78,63 +132,4 @@
     grid-column: 3 / span 1;
     grid-row: 3 / span 1;
   }
-
-  /* BLUR EFFECT */
-  .service {
-    position: relative;
-  }
-
-  .grid-image {
-    line-height: 0;
-    overflow: hidden;
-  }
-
-  .grid-image img {
-    filter: blur(0px);
-    transition: filter 0.3s ease-in;
-    transform: scale(1.1);
-  }
-
-  .service-title {
-    font-family: 'Ruthie', cursive;
-    font-size: 2.5em;
-    font-weight: lighter;
-    color: white;
-    letter-spacing: 0.1rem;
-    text-transform: capitalize;
-    text-decoration: none;
-    z-index: 1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity .5s;
-    background: rgba(#b59b87, 0.05);
-
-    /* position the text in t’ middle*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .service:hover .service-title {
-    opacity: 1;
-  }
-
-  .service:hover .grid-image img {
-    filter: blur(1.5px);
-  }
-
-
-  /* for touch screen devices */
-  @media (hover: none) {
-    .service-title {
-      opacity: 1;
-    }
-
-    .grid-image img {
-      filter: blur(1.5px);
-    }
-  }
+}
