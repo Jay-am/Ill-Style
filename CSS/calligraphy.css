@@ -37,8 +37,11 @@
 }
 
 .buttons-calligraphy {
-  margin-top: 2em;
-  margin-bottom: 4em;
+  margin: 3em 0 5em 0;
+}
+
+.buttons-calligraphy a {
+  margin: 0 auto;
 }
 
 .text-box {
