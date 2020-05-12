@@ -1003,15 +1003,14 @@
 /* GENERAL STYLING */
 
 .main-prices {
-  padding-top: 3em;
-  padding-bottom: 5em;
+  padding: 1em 0 5em 0;
   align-items: center;
 }
 
 /* STYLING GRID */
 
 .container-prices {
-  width: 70%;
+  width: 95%;
   max-width: 600px;
   margin: 0 auto;
 }

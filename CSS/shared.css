@@ -389,7 +389,7 @@ h3 {
   }
 
   .nav__item+.nav__item {
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
     padding-bottom: 0.2625em;
   }
 
