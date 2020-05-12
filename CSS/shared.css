@@ -354,10 +354,11 @@ h3 {
     visibility: visible;
     height: auto;
     position: relative;
+    margin-top: 1em;
   }
 
   .nav__content {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 
   .nav__list--primary {
@@ -367,8 +368,6 @@ h3 {
     padding: 0 0 0.2625em 0;
     margin: 0 0 0.5em 0;
   }
-
-
 
   .nav__item+.nav__item {
     margin: 0 0 0 1em;
