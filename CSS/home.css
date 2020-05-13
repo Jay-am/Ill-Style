@@ -2,7 +2,6 @@
 
 .main-home {
   padding-top: 1em;
-  padding-bottom: 5em;
 }
 
 .meaning {
@@ -57,7 +56,9 @@
   left: 0;
   opacity: 0;
   transition: opacity .5s;
-  background: rgba(#b59b87, 0.05);
+  background: rgba(#d3b7a7, 0.05);
+  border: 2px solid #d3b7a7;
+  /* box-shadow: 2px 2px 10px 0px rgb(209, 208, 208); */
 
   /* position the text in t’ middle*/
   display: flex;
