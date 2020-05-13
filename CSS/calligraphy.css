@@ -52,6 +52,11 @@
   margin-left: 3em;
 }
 
+.calligraphy-image {
+  width: 50%;
+  align-self: center;
+}
+
 .slideshow-testimonials-calligraphy {
   margin-bottom: 5em;
 }
