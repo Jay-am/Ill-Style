@@ -9,6 +9,11 @@
 
 .main-text-calligraphy p {
   padding-bottom: 1em;
+  font-size: 0.9rem;
+}
+
+.calligraphy-text-container {
+  margin-bottom: 4em;
 }
 
 .aside-calligraphy {
@@ -16,9 +21,24 @@
 }
 
 .aside-calligraphy__parts {
+  display: flex;
+  align-content: center;
   background: #d3b7a7;
   border: 1px solid #d3b7a7;
   margin-bottom: 2em;
+}
+
+.calligraphy-image {
+  width: 30%;
+  margin-right: 1em;
+}
+
+.aside-calligraphy__details {
+  padding: 0 1em 0.5em 0;
+}
+
+.aside-calligraphy__details p {
+  font-size: 0.8rem;
 }
 
 .aside-calligraphy__headline {
@@ -31,13 +51,50 @@
 
 .aside-calligraphy__text {
   color: #ffffff;
-  font-size: 0.7rem;
 }
 
 @media (min-width: 900px) {
 
+  .main-text-calligraphy p {
+    font-size: 0.9rem;
+  }
+
   .calligraphy-text-container {
     width: 60%;
+  }
+
+  .calligraphy__part+.calligraphy__part {
+    margin-left: 2em;
+  }
+
+  .aside-calligraphy__parts+.aside-calligraphy__parts {
+    margin-top: 2em;
+  }
+
+  .aside-calligraphy {
+    width: 40%;
+    justify-content: space-between;
+  }
+
+  .aside-calligraphy__headline {
+    font-size: 0.9rem;
+  }
+
+  .aside-calligraphy__text p {
+    color: #ffffff;
+    font-size: 0.6rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .main-text-calligraphy p {
+    font-size: 1rem;
+  }
+
+  .calligraphy-text-container {
+    width: 65%;
   }
 
   .calligraphy__part+.calligraphy__part {
@@ -49,16 +106,26 @@
   }
 
   .aside-calligraphy {
-    width: 40%;
-    align-items: center;
-  }
-
-  .aside-calligraphy__details {
-    padding: 0 1em 0.5em 0;
+    width: 35%;
   }
 
   .calligraphy-image {
     width: 30%;
     margin-right: 1em;
   }
+
+  .aside-calligraphy__details {
+    padding: 0 1em 0.5em 0;
+  }
+
+  .aside-calligraphy__headline {
+    font-size: 1.1rem;
+  }
+
+  .aside-calligraphy__text p {
+    color: #ffffff;
+    font-size: 0.8rem;
+  }
 }
+
+@media (min-width: 1800px) {}

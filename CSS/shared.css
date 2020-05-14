@@ -72,7 +72,7 @@ h3 {
 /* LAYOUT */
 
 .container {
-  width: 95%;
+  width: 90%;
   max-width: 1020px;
   margin: 0 auto;
 }
@@ -434,6 +434,8 @@ nav ul {
 
   .nav {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     visibility: visible;
     height: auto;
     position: relative;
@@ -453,7 +455,7 @@ nav ul {
   }
 
   .nav__item+.nav__item {
-    margin: 0 0 0 2em;
+    margin-left: 1em;
     /* padding-bottom: 0.2625em; */
   }
 
@@ -510,10 +512,14 @@ nav ul {
     width: 80%;
   }
 
-  .nav {
-    display: flex;
-    justify-content: space-between;
+  .nav__item {
+    font-size: 1.1rem;
   }
+
+  .nav__item+.nav__item {
+    margin-left: 1.5em;
+  }
+
 }
 
 @media (min-width: 1800px) {
