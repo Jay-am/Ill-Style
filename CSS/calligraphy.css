@@ -16,6 +16,12 @@
   text-align: center;
 }
 
+.aside-calligraphy__parts {
+  background: #d3b7a7;
+  color: #ffffff;
+  padding: 1em 1em;
+}
+
 .aside-calligraphy__headline {
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -30,15 +36,20 @@
 @media (min-width: 900px) {
 
   .calligraphy-text-container {
-    width: 50%;
+    width: 60%;
+    margin-left: 3em;
+  }
+
+  .aside-calligraphy__parts+.aside-calligraphy__parts {
+    margin-bottom: 2em;
   }
 
   .aside-calligraphy {
-    width: 50%;
+    width: 40%;
   }
 
   .calligraphy-image {
-    width: 40%;
+    width: 30%;
     align-self: center;
   }
 }
