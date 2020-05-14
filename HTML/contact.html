@@ -14,12 +14,8 @@
   </head>
   <body>
     <header>
-      <div class="nav__bar">
+      <section class="nav__bar">
         <div class="container col">
-          <button class="nav-toggle" aria-label="open navigation">
-            <span class="hamburger"></span>
-          </button>
-
           <div class="nav__content">
             <a href="../HTML/home.html"
               ><img
@@ -32,76 +28,92 @@
               <li>06221-332916</li>
               <li>info@ill-style.de</li>
             </ul>
+            <div class="button__nav">
+              <a href="#" class="nav__link--button">Termin buchen</a>
+            </div>
           </div>
-
           <nav class="nav col">
-            <ul class="nav__list--primary">
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#"><span></span></a>
+            </div>
+            <ul class="nav-list nav__list nav__list--primary">
               <li class="nav__item">
-                <a href="../HTML/home.html" class="nav__link">Leistungen</a>
+                <a href="../HTML/home.html" class="nav__link">Home</a>
               </li>
               <li class="nav__item">
-                <a href="../HTML/products.html" class="nav__link">Produkte</a>
+                <a href="#" class="nav__link">Leistungen</a>
+                <ul class="nav-dropdown">
+                  <li class="nav-dropdown__item">
+                    <a href="../HTML/Home/cut.html" class="nav-dropdown__link"
+                      >Cut</a
+                    >
+                  </li>
+                  <li class="nav-dropdown__item">
+                    <a
+                      href="../HTML/Home/calligraphy.html"
+                      class="nav-dropdown__link"
+                      >Caligraphy</a
+                    >
+                  </li>
+                  <li class="nav-dropdown__item">
+                    <a href="../HTML/Home/color.html" class="nav-dropdown__link"
+                      >Color</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Produkte</a>
+                <ul class="nav-dropdown">
+                  <li class="nav-dropdown__item">
+                    <a href="#" class="nav-dropdown__link"
+                      >Philip Martens</a
+                    >
+                  </li>
+                  <li class="nav-dropdown__item">
+                    <a href="#" class="nav-dropdown__link">Jane</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav__item">
                 <a href="../HTML/about.html" class="nav__link">Wir</a>
               </li>
               <li class="nav__item">
-                <a href="../HTML/gallerie.html" class="nav__link">Gallerie</a>
+                <a href="#" class="nav__link">Gallerie</a>
+                <ul class="nav-dropdown">
+                  <li class="nav-dropdown__item">
+                    <a href="#" class="nav-dropdown__link">Cut</a>
+                  </li>
+                  <li class="nav-dropdown__item">
+                    <a href="#" class="nav-dropdown__link"
+                      >Caligraphy</a
+                    >
+                  </li class="nav-dropdown__item">
+                  <li class="nav-dropdown__item">
+                    <a href="#" class="nav-dropdown__link">Color</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav__item">
                 <a href="../HTML/prices.html" class="nav__link">Preise</a>
               </li>
+              <!-- <li class="nav__item">
+                <a href="../HTML/blog.html" class="nav__link">Blog</a>
+              </li> -->
+              <li class="nav__item">
+                <a href="../HTML/contact.html" class="nav__link">Öffnungszeiten</a>
+              </li>
               <li class="nav__item">
                 <a href="../HTML/presse.html" class="nav__link">Presse</a>
-              </li>
-              <!-- <li class="nav__item">
-            <a href="../HTML/blog.html" class="nav__link">Blog</a>
-          </li> -->
-              <li class="nav__item">
-                <a href="../HTML/contact.html" class="nav__link">Kontakt</a>
-              </li>
-            </ul>
-            <ul class="nav__list--secondary">
-              <li class="nav__item">
-                <a href="#" class="nav__link nav__link--button"
-                  >Termin buchen</a
-                >
               </li>
             </ul>
           </nav>
         </div>
-      </div>
-    </header>
-    <main class="container main-contact">
-      <h1>Ihr <span class="highlight"> Kontakt </span> zu uns</h1>
-      <section class="contact">
-        <div class="contact__text">
-          <p>
-            Haben Sie Fragen zu unseren Produkten oder Dienstleistungen?
-          </p>
-          <!-- <p>Unser kompetentes Team ist gerne für Sie da.</p> -->
-          <p>
-            Sie erreichen uns telefonisch unter<br />
-            <strong>06221-332916</strong>
-          </p>
-          <p>
-            Sie möchten uns lieber schriftlich kontaktieren?
-          </p>
-          <p>
-            Senden Sie uns eine Nachricht unter<br />
-            <strong>info@ill-style.de</strong><br />Wir setzen uns zeitnah mit
-            Ihnen in Verbindung.
-          </p>
-          <p>
-            Oder besuchen Sie uns direkt vor Ort &mdash; wir freuen uns auf Sie!
-          </p>
-          <p>
-            <strong>Rohrbacherstr. 106<br />69126 Heidelberg</strong>
-          </p>
-        </div>
       </section>
+    </header>
+    <main class="main-open container">
       <section class="open-hours">
-        <h2>Öffnungszeiten</h2>
+        <h2><span class="highlight"> Öffnungszeiten</span></h2>
         <ul class="open">
           <li class="days"><strong>Montag</strong>: Geschlossen</li>
           <li class="days">
@@ -114,6 +126,30 @@
           Termine sind auch außerhalb der Öffnungszeiten möglich.
         </p>
       </section>
+      <section class="location">
+        <a href="https://www.google.de/maps/place/ILL-STYLE+Friseursalon+Heidelberg,+Calligraphy+Cut,+Extensions,+Make+up,+Hochzeitsstyling,+Balayage,+Organic+Haircare/@49.3954403,8.6874561,17z/data=!3m1!4b1!4m5!3m4!1s0x4797c13d475ce1cb:0xebab083a17d00dd2!8m2!3d49.3954368!4d8.6896501"
+          class="link-google-maps" target="_blank"><img src="../Images/Salon/Standort_square.jpg" alt="Ill Style Standord" class="maps"></a>
+        <img
+            src="../Images/Logo/Logo2_6.png"
+            alt="Logo Ill Style"
+            class="mark-location"
+          />
+        <p class="location-name">Ill Style</p>
+        <a
+        href="https://www.google.de/maps/place/ILL-STYLE+Friseursalon+Heidelberg,+Calligraphy+Cut,+Extensions,+Make+up,+Hochzeitsstyling,+Balayage,+Organic+Haircare/@49.3954403,8.6874561,17z/data=!3m1!4b1!4m5!3m4!1s0x4797c13d475ce1cb:0xebab083a17d00dd2!8m2!3d49.3954368!4d8.6896501"
+        target="_blank" class="link-google-maps"
+        >Google Maps</a
+      >
+      </section>
+      <!-- <section class="contact">
+        <h2><span class="highlight"> Kontakt</span></h2>
+        <ul class="contact-details">
+          <li>Rohrbacherstr. 106</li>
+          <li>69126 Heidelberg</li>
+          <li>06221-332916</li>
+          <li>info@ill-style.de</li>
+        </ul>
+      </section> -->
     </main>
     <footer class="footer">
       <div class="container row footer__container">
@@ -165,6 +201,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85807/jquery.flexslider.js"></script>
     <script src="../JS/slideshow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../JS/nav.js"></script>
   </body>
 </html>

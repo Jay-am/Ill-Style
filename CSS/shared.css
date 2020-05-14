@@ -105,12 +105,11 @@ h3 {
   text-align: center;
 }
 
-.nav__list--primary,
-.nav__list--secondary {
+.nav__list--primary {
   list-style: none;
   text-align: center;
   margin: 0 auto;
-  padding: 1em 0 0 0;
+  padding: 3em 0 0 0;
 }
 
 .nav__link {

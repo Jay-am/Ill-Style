@@ -5,10 +5,6 @@
   text-align: center;
 }
 
-.header-calligraphy__part+.header-calligraphy__part {
-  margin-left: 1em;
-}
-
 .calligraphy-image {
   width: 40%;
   align-self: center;
@@ -25,7 +21,7 @@
   font-size: 0.7rem;
 }
 
-/* MAIN */
+
 
 .main-text-calligraphy {
   padding-top: 4em;
@@ -41,12 +37,10 @@
   padding-bottom: 1em;
 }
 
-/* BUTTONS */
 
-.buttons-calligraphy {
-  align-items: center;
-}
+@media (min-width: 900px) {
 
-.buttons-calligraphy a {
-  margin: 0 auto;
+  .calligraphy-text-container {
+    width: 50%;
+  }
 }
