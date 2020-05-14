@@ -1,28 +1,3 @@
-/* HEADER */
-
-.header-part-calligraphy {
-  width: 30%;
-  text-align: center;
-}
-
-.calligraphy-image {
-  width: 40%;
-  align-self: center;
-}
-
-.header-part-calligraphy__headline {
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-}
-
-.header-part-calligraphy__text {
-  font-size: 0.7rem;
-}
-
-
-
 .main-text-calligraphy {
   padding-top: 4em;
 }
@@ -37,10 +12,33 @@
   padding-bottom: 1em;
 }
 
+.aside-calligraphy {
+  text-align: center;
+}
+
+.aside-calligraphy__headline {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+.aside-calligraphy__text {
+  font-size: 0.7rem;
+}
 
 @media (min-width: 900px) {
 
   .calligraphy-text-container {
     width: 50%;
+  }
+
+  .aside-calligraphy {
+    width: 50%;
+  }
+
+  .calligraphy-image {
+    width: 40%;
+    align-self: center;
   }
 }
