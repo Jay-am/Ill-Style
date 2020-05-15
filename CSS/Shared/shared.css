@@ -69,6 +69,16 @@ h3 {
   text-transform: capitalize;
 }
 
+.highlight-low {
+  font-family: 'Ruthie', cursive;
+  /* font-family: 'Herr Von Muellerhoff', cursive; */
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: #d3b7a7;
+  letter-spacing: 0.1rem;
+  text-transform: lowercase;
+}
+
 .highlight-weiß {
   font-family: 'Ruthie', cursive;
   /* font-family: 'Herr Von Muellerhoff', cursive; */
