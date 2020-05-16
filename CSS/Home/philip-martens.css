@@ -36,7 +36,7 @@
 }
 
 .free_item {
-  /* color: #ffffff; */
+  color: #ffffff;
   font-size: 0.7rem;
   line-height: 1.5rem;
 }
@@ -45,7 +45,7 @@
   list-style: none;
   padding: 0;
   text-align: right;
-  margin-top: 6em;
+  margin-top: 1em;
   padding-right: 2em;
 }
 
@@ -54,9 +54,14 @@
   margin-bottom: 0.5em;
 }
 
+.headline-frei h2 {
+  text-align: right;
+  padding-right: 0;
+}
+
 .headline-frei p {
   text-align: right;
-  margin-bottom: 10em;
+  margin-bottom: 1em;
   padding-right: 0;
 }
 
