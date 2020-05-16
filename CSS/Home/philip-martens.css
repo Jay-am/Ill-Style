@@ -7,7 +7,7 @@
 }
 
 .text-block-2 {
-  padding-top: 2em;
+  padding: 2em 0 1em 0;
 }
 
 .circle {
@@ -19,6 +19,91 @@
   clip-path: circle(0% at 50%);
   background: lightblue;
 }
+
+.free_item {
+  /* color: #ffffff; */
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
+
+.headline-frei p {
+  text-align: right;
+  margin-bottom: 10em;
+  padding-right: 0;
+}
+
+.small,
+.span {
+  font-size: 0.5rem;
+  text-align: right;
+  padding-right: 2em;
+}
+
+.klein,
+.span {
+  text-transform: lowercase;
+}
+
+.main-content-pm {
+  width: 50%;
+}
+
+.text-block-paragraph+.text-block-paragraph {
+  margin-top: 1em;
+}
+
+.main-content-pm h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.main-ingredients h2 {
+  margin-bottom: 1em;
+}
+
+.ingredients {
+  list-style: none;
+  padding: 0;
+
+}
+
+.ingredients_item {
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+.text-blick-1 {}
+
+
+/* MEDIAQUERIES */
+
+@media (min-width: 600px) {}
+
+@media (min-width: 900px) {
+  .hero-pm img {
+    width: 55%;
+  }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1800px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* .frei-von {
   display: grid;
@@ -64,67 +149,4 @@
   text-align: right;
   margin-top: 6em;
   padding-right: 2em;
-}
-
-.free_item {
-  color: #ffffff;
-  font-size: 0.7rem;
-  line-height: 1.5rem;
-} */
-
-.small,
-.span {
-  font-size: 0.5rem;
-  text-align: right;
-  padding-right: 2em;
-}
-
-.klein,
-.span {
-  text-transform: lowercase;
-}
-
-.main-content-pm {
-  width: 50%;
-}
-
-.text-block-paragraph+.text-block-paragraph {
-  margin-top: 1em;
-}
-
-.main-content-pm h1 {
-  text-align: center;
-  margin-bottom: 2em;
-}
-
-.main-ingredients h2 {
-  margin-bottom: 1.5em;
-}
-
-.ingredients {
-  list-style: none;
-  padding: 0;
-
-}
-
-.ingredients_item {
-  font-size: 0.9rem;
-  line-height: 2rem;
-}
-
-.text-blick-1 {}
-
-
-/* MEDIAQUERIES */
-
-@media (min-width: 600px) {}
-
-@media (min-width: 900px) {
-  .hero-pm img {
-    width: 55%;
-  }
-}
-
-@media (min-width: 1200px) {}
-
-@media (min-width: 1800px) {}
+}  */
