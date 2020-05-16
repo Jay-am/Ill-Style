@@ -28,11 +28,10 @@
 
 .circle {
   float: right;
-  width: 40%;
-  height: 40%;
+  width: 50%;
   margin: 0;
-  shape-outside: circle(50% at 20%);
-  clip-path: circle(50% at 0%);
+  shape-outside: circle(50% at 0%);
+  clip-path: circle(50% at 100%);
   background: #d3b7a7;
 }
 
