@@ -1,4 +1,14 @@
-.frei-von {
+.circle {
+  float: right;
+  width: 40%;
+  height: 40%;
+  margin: 0;
+  shape-outside: circle(0% at 100%);
+  clip-path: circle(0% at 50%);
+  background: lightblue;
+}
+
+/* .frei-von {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 20% 5% 70% 5%;
@@ -48,7 +58,7 @@
   color: #ffffff;
   font-size: 0.7rem;
   line-height: 1.5rem;
-}
+} */
 
 .small,
 .span {
