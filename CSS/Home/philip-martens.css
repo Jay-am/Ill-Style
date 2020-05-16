@@ -33,7 +33,7 @@
   margin: 0;
   shape-outside: circle(50% at 20%);
   clip-path: circle(50% at 0%);
-  background: lightblue;
+  background: #d3b7a7;
 }
 
 .free_item {
