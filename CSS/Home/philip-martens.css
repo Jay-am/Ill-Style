@@ -1,3 +1,14 @@
+/* MAIN TEXT */
+
+.main-content-pm h1 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.text-block-paragraph+.text-block-paragraph {
+  margin-top: 1em;
+}
+
 #img-pm {
   float: left;
   width: 50%;
@@ -10,13 +21,22 @@
   padding: 2em 0 1em 0;
 }
 
+/* .text-block-3 {
+  float: right;
+  width: 40%;
+  margin: 0;
+  shape-outside: circle();
+} */
+
+/* FREE */
+
 .circle {
   float: right;
   width: 40%;
   height: 40%;
   margin: 0;
-  shape-outside: circle(0% at 100%);
-  clip-path: circle(0% at 50%);
+  shape-outside: circle(50% at 20%);
+  clip-path: circle(50% at 0%);
   background: lightblue;
 }
 
@@ -44,18 +64,8 @@
   text-transform: lowercase;
 }
 
-.main-content-pm {
-  width: 50%;
-}
 
-.text-block-paragraph+.text-block-paragraph {
-  margin-top: 1em;
-}
-
-.main-content-pm h1 {
-  text-align: center;
-  margin-bottom: 2em;
-}
+/* INGREDIENTS */
 
 .main-ingredients h2 {
   margin-bottom: 1em;
@@ -64,15 +74,12 @@
 .ingredients {
   list-style: none;
   padding: 0;
-
 }
 
 .ingredients_item {
   font-size: 0.9rem;
   line-height: 2rem;
 }
-
-.text-blick-1 {}
 
 
 /* MEDIAQUERIES */
