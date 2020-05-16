@@ -1,3 +1,10 @@
+#img-pm {
+  float: left;
+  width: 55%;
+  height: auto;
+  shape-outside: url("../../Images/Produkte/01-08-16_Philip Martin's_0067_fondo modificato_klein(1).jpg");
+}
+
 .circle {
   float: right;
   width: 40%;
