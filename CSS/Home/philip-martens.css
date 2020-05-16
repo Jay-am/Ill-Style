@@ -5,20 +5,16 @@
   margin-bottom: 2em;
 }
 
-.text-block-paragraph+.text-block-paragraph {
-  margin-top: 1em;
-}
-
-#img-pm {
-  float: left;
-  width: 50%;
-  height: auto;
-  shape-outside: url("../../Images/Produkte/01-08-16_Philip Martin's_0067_fondo modificato_klein(1).jpg");
-  margin: 2em 3em 2em 0;
+.text-block-1 {
+  padding-bottom: 2em;
 }
 
 .text-block-2 {
   padding: 2em 0 1em 0;
+}
+
+.text-block-paragraph+.text-block-paragraph {
+  margin-top: 1em;
 }
 
 /* .text-block-3 {
@@ -89,6 +85,14 @@
 @media (min-width: 900px) {
   .hero-pm img {
     width: 55%;
+  }
+
+  #img-pm {
+    float: left;
+    width: 50%;
+    height: auto;
+    shape-outside: url("../../Images/Produkte/01-08-16_Philip Martin's_0067_fondo modificato_klein(1).jpg");
+    margin: 2em 3em 2em 0;
   }
 }
 
