@@ -19,7 +19,7 @@
 
 /* .text-block-3 {
   float: right;
-  width: 40%;
+  width: 50%;
   margin: 0;
   shape-outside: circle();
 } */
@@ -28,7 +28,8 @@
 
 .circle {
   float: right;
-  width: 50%;
+  width: 100%;
+  height: 100%;
   margin: 0;
   shape-outside: circle(50% at 0%);
   clip-path: circle(50% at 100%);
@@ -46,11 +47,11 @@
   padding: 0;
   text-align: right;
   margin-top: 1em;
-  padding-right: 2em;
+  padding-right: 1em;
 }
 
 .headline-frei {
-  padding-right: 2em;
+  padding-right: 1em;
   margin-bottom: 0.5em;
 }
 
