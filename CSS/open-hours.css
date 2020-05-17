@@ -39,7 +39,7 @@
 
 .mark-location {
   width: 2em;
-  position: absolute;
+  position: fixed;
   top: 13.5em;
   left: 17.7em;
 }
