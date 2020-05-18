@@ -11,6 +11,7 @@
 
 .text-block-2 {
   padding: 2em 0 1em 0;
+  clear: right;
 }
 
 .text-block-paragraph+.text-block-paragraph {
@@ -27,9 +28,9 @@
 /* FREE */
 
 .circle {
-  /* float: right; */
-  width: 100%;
-  height: 100%;
+  float: right;
+  width: 450px;
+  height: 450px;
   margin: 0;
   shape-outside: circle(50% at 0%);
   clip-path: circle(50% at 100%);
@@ -38,7 +39,7 @@
 
 .free_item {
   color: #ffffff;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   line-height: 1.5rem;
 }
 
@@ -70,7 +71,7 @@
 .span {
   font-size: 0.5rem;
   text-align: right;
-  padding-right: 2em;
+  padding-right: 1em;
 }
 
 .klein,
@@ -80,6 +81,10 @@
 
 
 /* INGREDIENTS */
+
+.main-ingredients {
+  clear: both;
+}
 
 .main-ingredients h2 {
   margin-bottom: 1em;
@@ -98,7 +103,7 @@
 /* SLIDESHOW */
 
 .slideshow-testimonials-organic-products-pm {
-  
+  clear: both;
 }
 
 
