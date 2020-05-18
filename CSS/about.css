@@ -2,3 +2,7 @@
   padding-top: 2em;
   padding-bottom: 5em;
 }
+
+.paragraph-individualität+.paragraph-individualität {
+  margin-top: 1em;
+}
