@@ -25,6 +25,13 @@
   shape-outside: circle();
 } */
 
+.text-block-3 {
+  width: 450px;
+  height: 450px;
+  margin: 0;
+  shape-outside: circle(50% at 0%);
+}
+
 /* FREE */
 
 .circle {
@@ -35,6 +42,7 @@
   shape-outside: circle(50% at 0%);
   clip-path: circle(50% at 100%);
   background: #d3b7a7;
+  clear: both;
 }
 
 .free_item {
@@ -82,9 +90,7 @@
 
 /* INGREDIENTS */
 
-.main-ingredients {
-  clear: both;
-}
+.main-ingredients {}
 
 .main-ingredients h2 {
   margin-bottom: 1em;
