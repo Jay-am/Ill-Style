@@ -1,5 +1,9 @@
 /* MAIN TEXT */
 
+.main-content-pm {
+  margin-bottom: 10em;
+}
+
 .main-content-pm h1 {
   text-align: center;
   margin-bottom: 2em;
@@ -26,13 +30,12 @@
 } */
 
 .text-block-3 {
-  width: 450px;
-  height: 450px;
-  margin: 0;
-  shape-outside: circle(50% at 0%);
+  shape-outside: circle();
 }
 
 /* FREE */
+
+.frei-von {}
 
 .circle {
   float: right;
@@ -90,7 +93,10 @@
 
 /* INGREDIENTS */
 
-.main-ingredients {}
+.main-ingredients {
+  shape-outside: circle();
+  clear: left;
+}
 
 .main-ingredients h2 {
   margin-bottom: 1em;
@@ -110,6 +116,7 @@
 
 .slideshow-testimonials-organic-products-pm {
   clear: both;
+  margin-top: 10em;
 }
 
 
