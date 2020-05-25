@@ -9,40 +9,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../../CSS/Home/jane-iredale.css" />
-    <link rel="stylesheet" href="../../CSS/Shared/shared.css" />
+    <link rel="stylesheet" href="../../CSS/Shared/shared_version2.css" />
     <link rel="stylesheet" href="../../CSS/Shared/slideshow.css" />
     <script src="https://use.fontawesome.com/3966d2eaf8.js"></script>
   </head>
   <body>
     <header>
       <section class="nav__bar">
-        <div class="container col">
-          <div class="nav__content">
-            <a href="../../HTML/home.html"
-              ><img
-                src="../../Images/Logo/Logo2.png"
-                alt="Ill Style Logo"
-                class="nav__logo"
-            /></a> -->
-            <ul class="nav__text">
-              <li>Rohrbacherstr. 106 | 69126 Heidelberg</li>
-              <li>06221-332916</li>
-              <li>info@ill-style.de</li>
-            </ul>
-            <div class="button__nav">
-              <a href="#" class="nav__link--button">Termin buchen</a>
-            </div>
-          </div>
-          <nav class="nav col">
-            <div class="nav-mobile">
-              <a id="nav-toggle" href="#"><span></span></a>
-            </div>
-            <a href="../../HTML/home.html"
+        <div class="nav__content container row">
+          <a href="../../HTML/home.html"
             ><img
               src="../../Images/Logo/Logo2.png"
               alt="Ill Style Logo"
               class="nav__logo"
-          /></a>
+            /></a>
+            <!-- <div class="button__nav">
+              <a href="#" class="nav__link--button">Termin buchen</a>
+            </div> -->
+          <!-- </div> -->
+          <nav class="nav">
+            <div class="nav-mobile">
+              <a id="nav-toggle" href="#"><span></span></a>
+            </div>
             <ul class="nav-list nav__list nav__list--primary">
               <li class="nav__item">
                 <a href="../../HTML/home.html" class="nav__link">Home</a>
@@ -149,26 +137,30 @@
       </section>
     </header>
 
-    <main class="container main-blog">
-
-      <h1>jane iredale THE SKIN CARE MAKE-UP</h1>
-      <h2>Natürliche Schönheit ohne Kompromisse</h2>
-      
-      <p>Die beste Kosmetik ist eine gesunde Haut. Jedes Produkt das wir verwenden sehen wir daher nicht nur als Werkzeug, um Sie noch schöner strahlen zu lassen, es soll auch als Pflege dienen, um die Gesundheit und Schönheit Ihrer Haut zu fördern.</p>
-      <p>Daher nutzen wir Make-up von Jane Iredale. Sie brachte 1994 das erste hautpflegende Make-up auf den Markt. Natürliche und einzigartige Inhaltsstoffe auf der Basis von Mineralien machen es zum technologisch hochwertigsten und wirksamsten Make-up der Welt. Empfohlen von Dermatologen, Hautpflegeexperten und Plastischen Chirurgen.</p>
+    <main class="content main-blog">
+      <section class="intro-ji">
+        <div class="intro-ji__content container">
+        <h1>jane iredale THE SKIN CARE MAKE-UP</h1>
+        <h2>Natürliche Schönheit ohne Kompromisse</h2>
+        <p>Die beste Kosmetik ist eine gesunde Haut. Jedes Produkt das wir verwenden sehen wir daher nicht nur als Werkzeug, um Sie noch schöner strahlen zu lassen, es soll auch als Pflege dienen, um die Gesundheit und Schönheit Ihrer Haut zu fördern.</p>
+        <p>Daher nutzen wir Make-up von Jane Iredale. Sie brachte 1994 das erste hautpflegende Make-up auf den Markt. Natürliche und einzigartige Inhaltsstoffe auf der Basis von Mineralien machen es zum technologisch hochwertigsten und wirksamsten Make-up der Welt. Empfohlen von Dermatologen, Hautpflegeexperten und Plastischen Chirurgen.</p>
+      </div>
+      </section>
 
       <section class="clean-beauty">
-        <h2>Clean Beauty</h2>
-        <ul class="clean-beauty__list">
-          <li class="clean-beauty__item">Hautpflegendes, lang haltendes Mineral Make-up, das die Haut atmen lässt.</li>
-          <li class="clean-beauty__item">Angereichert mit Vitaminen und Antioxidantien.</li>
-          <li class="clean-beauty__item">Frei von künstlichen Duft- und Konservierungsstoffen, hypoallergen.</li>
-          <li class="clean-beauty__item">Effektiver UV-Schutz.</li>
-          <li class="clean-beauty__item">Die Lösung zum Kaschieren von Hautproblemen.</li>
-          <li class="clean-beauty__item">Eine umfangreiche Produktpalette mit saisonalen Highlights, die keine Wünsche offen lässt.</li>
-          <li class="clean-beauty__item">Höchste Sicherheitsstandards - ständig kontrolliert von unabhängigen Laboren.</li>
-          <li class="clean-beauty__item">Keine Tierversuche und die Verwendung umweltfreundlicher Verpackungen.</li>
-        </ul>
+        <div class="clean-beauty__content container">
+          <h2>Clean Beauty</h2>
+          <ul class="clean-beauty__list">
+            <li class="clean-beauty__item">Hautpflegendes, lang haltendes Mineral Make-up, das die Haut atmen lässt.</li>
+            <li class="clean-beauty__item">Angereichert mit Vitaminen und Antioxidantien.</li>
+            <li class="clean-beauty__item">Frei von künstlichen Duft- und Konservierungsstoffen, hypoallergen.</li>
+            <li class="clean-beauty__item">Effektiver UV-Schutz.</li>
+            <li class="clean-beauty__item">Die Lösung zum Kaschieren von Hautproblemen.</li>
+            <li class="clean-beauty__item">Eine umfangreiche Produktpalette mit saisonalen Highlights, die keine Wünsche offen lässt.</li>
+            <li class="clean-beauty__item">Höchste Sicherheitsstandards - ständig kontrolliert von unabhängigen Laboren.</li>
+            <li class="clean-beauty__item">Keine Tierversuche und die Verwendung umweltfreundlicher Verpackungen.</li>
+          </ul>
+        </div>
       </section>
 
       <!-- <h3>DAS 4-IN-1 PRINZIP</h3>
@@ -191,17 +183,19 @@
 
       <!-- <h2>CLEAN BEAUTY</h2>
       <p>Zur Herstellung der Puder werden keine synthetisch hergestellten Konservierungsstoffe verwendet, da sie bereits im sterilen Zustand gewonnen werden. Zudem finden keine Parabene oder Phenoxyethanole den Weg in die Kosmetika, es werden keinerlei Tierversuche durchgeführt und umweltfreundliche Verpackungen genutzt.</p> -->
-      <div class="clean-icons">
-        <img src="../../Images/Produkte/Jane Iredale/01-Weichmacher2.png" alt="Keine Weichmacher">
-        <img src="../../Images/Produkte/Jane Iredale/02-TalkfreiIcons-JIWS22.png" alt="Talkfrei">
-        <img src="../../Images/Produkte/Jane Iredale/03-Parabenfrei2.png" alt="Parabenfrei">
-        <img src="../../Images/Produkte/Jane Iredale/04-Mineral-lfrei2.png" alt="Mineralfrei">
-        <img src="../../Images/Produkte/Jane Iredale/05-GMOfrei2.png" alt="GMO frei">
-        <img src="../../Images/Produkte/Jane Iredale/06-Ohne-Nanopartikel2.png" alt="Ohne Nanopartikel">
-        <img src="../../Images/Produkte/Jane Iredale/07-Nicht-Komedogen2.png" alt="Nicht Komedogen">
-        <img src="../../Images/Produkte/Jane Iredale/08-Keine-Duftstoffe2.png" alt="Keine Duftstoffe">
-        <img src="../../Images/Produkte/Jane Iredale/09-Keine-Konservierungsstoffe2.png" alt="Keine Konservierungsstoffe">
-      </div>    
+      <section class="clean-icons">
+        <div class="clean-icons__list">
+          <img src="../../Images/Produkte/Jane Iredale/01-Weichmacher2.png" alt="Keine Weichmacher">
+          <img src="../../Images/Produkte/Jane Iredale/02-TalkfreiIcons-JIWS22.png" alt="Talkfrei">
+          <img src="../../Images/Produkte/Jane Iredale/03-Parabenfrei2.png" alt="Parabenfrei">
+          <img src="../../Images/Produkte/Jane Iredale/04-Mineral-lfrei2.png" alt="Mineralfrei">
+          <img src="../../Images/Produkte/Jane Iredale/05-GMOfrei2.png" alt="GMO frei">
+          <img src="../../Images/Produkte/Jane Iredale/06-Ohne-Nanopartikel2.png" alt="Ohne Nanopartikel">
+          <img src="../../Images/Produkte/Jane Iredale/07-Nicht-Komedogen2.png" alt="Nicht Komedogen">
+          <img src="../../Images/Produkte/Jane Iredale/08-Keine-Duftstoffe2.png" alt="Keine Duftstoffe">
+          <img src="../../Images/Produkte/Jane Iredale/09-Keine-Konservierungsstoffe2.png" alt="Keine Konservierungsstoffe">
+        </div>    
+      </section>
 
     
       <!-- SLIDESHOW TESTIMONIALS ORGANIC PRODUCTS -->

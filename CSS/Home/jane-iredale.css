@@ -1,0 +1,34 @@
+.intro-ji {
+  height: 100vh;
+  width: 100vw;
+  background: #f0ede9;
+  margin-bottom: 0.5em;
+}
+
+.clean-beauty {
+
+  background: #f7eee6;
+  /* background-image: url(https://www.janeiredale.de/media/image/76/g0/db/Abschnitt-2-Mobile-Tablet-Portrait-02.jpg); */
+  background-position: 0% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 0.5em;
+}
+
+.clean-beauty__list {
+  list-style: none;
+  padding: 0;
+  color: #928f91;
+  margin: 0 auto;
+}
+
+.clean-icons {
+  background: #f0ede9;
+}
+
+.clean-icons img {
+  display: inline-block;
+  width: 10%;
+}
