@@ -1,13 +1,17 @@
 .intro-ji {
   height: 100vh;
   width: 100vw;
-  background: #f0ede9;
+  background: #f7eee6;
+
   margin-bottom: 0.5em;
 }
 
-.clean-beauty {
+.intro-ji__content h2 {
+  margin-bottom: 2em;
+}
 
-  background: #f7eee6;
+.clean-beauty {
+  background: #f0ede9;
   /* background-image: url(https://www.janeiredale.de/media/image/76/g0/db/Abschnitt-2-Mobile-Tablet-Portrait-02.jpg); */
   background-position: 0% 0%;
   background-size: cover;
@@ -17,11 +21,20 @@
   margin-bottom: 0.5em;
 }
 
+.clean-beauty img {
+  width: 50%;
+  height: 70%;
+}
+
 .clean-beauty__list {
   list-style: none;
   padding: 0;
-  color: #928f91;
+  /* color: #928f91; */
   margin: 0 auto;
+}
+
+.clean-list__items {
+  line-height: 150%;
 }
 
 .clean-icons {
@@ -31,4 +44,9 @@
 .clean-icons img {
   display: inline-block;
   width: 10%;
+}
+
+.slideshow-testimonials-organic-products {
+  height: 50vh;
+  background: #f7eee6;
 }
