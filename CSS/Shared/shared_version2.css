@@ -135,7 +135,8 @@ h3 {
 }
 
 .nav__logo {
-  width: 5em;
+  width: 6em;
+  margin-top: 2em;
 }
 
 .nav__text {
@@ -154,7 +155,7 @@ h3 {
   list-style: none;
   text-align: center;
   margin: 0 auto;
-  padding: 0 0 0 0;
+  padding: 1.5em 0 0 0;
   /* padding-bottom: 4em; */
   /* border-bottom: 1px solid #d3b7a7; */
 }
@@ -267,13 +268,12 @@ nav ul {
   width: 70px;
 }
 
-
 #nav-toggle {
   position: absolute;
   right: 1em;
-  top: 4em;
+  top: 2em;
   cursor: pointer;
-  padding: 10px 35px 16px 0px;
+  padding: 10px 35px 8px 0px;
 }
 
 #nav-toggle span,
@@ -471,7 +471,7 @@ nav ul {
   /* NAV */
 
   .nav__logo {
-    margin: 1em 10em 0.2em auto;
+    margin: 1.5em 10em 0.2em auto;
   }
 
   /* .nav__logo {
@@ -505,6 +505,7 @@ nav ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0.5em 0 0 0;
     /* padding: 0 0 0.2625em 0;
     margin: 0 0 0.3em 0; */
   }
