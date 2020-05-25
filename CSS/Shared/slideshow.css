@@ -74,7 +74,7 @@
 @media (min-width: 900px) {
   .cd-testimonials-wrapper {
     margin: 1em auto;
-    padding: 1em 1.5em 0em 1.5em;
+    /* padding: 1em 1.5em 0em 1.5em; */
   }
 }
 
@@ -111,7 +111,7 @@
   font-style: italic;
   font-size: 0.85rem;
   line-height: 1.4;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   padding: 0 14px;
 }
 
@@ -496,5 +496,5 @@
 }
 
 .cd-light .flex-direction-nav li:hover {
-  background: #fff;
+  background: #f7eee6;
 }

@@ -47,6 +47,10 @@
 }
 
 .slideshow-testimonials-organic-products {
-  height: 50vh;
+  height: 60vh;
   background: #f7eee6;
+}
+
+.slideshow-testimonials-organic-products h2 {
+  padding-top: 5em;
 }
