@@ -1,18 +1,34 @@
-.intro-ji {
-  height: 100vh;
-  width: 100vw;
-  background: #f7eee6;
+/* INTRO */
 
+.intro-ji {
+  background-image: url(https://www.janeiredale.de/media/image/76/g0/db/Abschnitt-2-Mobile-Tablet-Portrait-02.jpg);
+  /* background: #f7eee6; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 5% 5%;
+  height: 972px;
+  width: 100vw;
   margin-bottom: 0.5em;
+}
+
+.intro-ji__content {
+  width: 50%;
 }
 
 .intro-ji__content h2 {
   margin-bottom: 2em;
 }
 
+.intro-ji img {
+  width: 50%;
+}
+
+/* CLEAN BEAUTY */
+
 .clean-beauty {
+  display: flex;
   background: #f0ede9;
-  /* background-image: url(https://www.janeiredale.de/media/image/76/g0/db/Abschnitt-2-Mobile-Tablet-Portrait-02.jpg); */
+
   background-position: 0% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,30 +37,56 @@
   margin-bottom: 0.5em;
 }
 
-.clean-beauty img {
-  width: 50%;
-  height: 70%;
+.clean-beauty__content {
+  width: 65%;
+  justify-content: center;
+  align-content: center;
+  padding: 12em 0 0 8em;
+}
+
+.clean-beauty__content h1 {
+  padding: 10em 0 0 0;
+}
+
+.clean-beauty__content h2 {
+  font-size: 2em;
+  padding: 5em 0 0 0;
+  margin-bottom: 1.5em;
 }
 
 .clean-beauty__list {
   list-style: none;
   padding: 0;
-  /* color: #928f91; */
-  margin: 0 auto;
 }
 
-.clean-list__items {
-  line-height: 150%;
+.clean-beauty__list li {
+  line-height: 2.5em;
+  height: auto;
 }
 
-.clean-icons {
-  background: #f0ede9;
+.clean-icons__list {
+  padding: 10em;
+  display: grid;
+  grid-template-columns: 3 repeat(1fr);
+  grid-template-rows: 3 repeat(1fr);
+  column-gap: 2em;
+  grid-template-areas: "clean-icons__item clean-icons__item clean-icons__item"
+    "clean-icons__item clean-icons__item clean-icons__item"
+    "clean-icons__item clean-icons__item clean-icons__item";
 }
 
-.clean-icons img {
-  display: inline-block;
-  width: 10%;
+.clean-icons__item {
+  justify-self: center;
+  align-self: center;
+  padding: 2em;
+  outline: 0.5em solid #ffffff;
 }
+
+.clean-icons__list img {
+  width: 100%;
+}
+
+/* SLIDESHOW */
 
 .slideshow-testimonials-organic-products {
   height: 60vh;
