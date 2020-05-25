@@ -112,9 +112,15 @@
   }
 
   .clean-beauty__content h2 {
-    font-size: 2em;
     text-align: left;
-    margin-bottom: 1em;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+
+  .clean-beauty__content h3 {
+    text-align: left;
+    margin: 0 0 3em 0;
+    padding: 0;
   }
 
   .clean-icons__list {
