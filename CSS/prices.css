@@ -1,3 +1,94 @@
+/* GENERAL STYLING */
+
+.container-prices {
+  background: #f7eee6;
+}
+
+.main-prices {
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em 0 5em 0;
+  align-items: center;
+}
+
+/* STYLING GRID */
+
+/* .intro-prices h1 {
+  font-family: "Dancing Script", cursive;
+  color: #b59b87;
+  font-size: 5em;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+} */
+
+.main-prices h1 {
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+.main-prices h2 {
+  font-family: 'Ruthie', cursive;
+  font-size: 2.5rem;
+  color: #d3b7a7;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.main-prices h3 {
+  padding-top: 0;
+  padding-bottom: 0.2em;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-prices p {
+  padding-bottom: 2em;
+  font-weight: lighter;
+  font-size: 0.8rem;
+  /* color: rgb(156, 154, 154); */
+}
+
+.h2-cut {
+  padding-bottom: 0;
+}
+
+.small,
+.span {
+  font-size: 0.5rem;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+.kleingedruckt {
+  font-size: 0.5rem;
+  padding-bottom: 1em;
+}
+
+.euro {
+  font-size: 0.8rem;
+}
+
+.cut,
+.calligraphy,
+.next-generation,
+.color,
+.henne,
+.highlights,
+.balayage,
+.styling,
+.treatment,
+.care {
+  padding-bottom: 3em;
+}
+
+
 /* GRID LAYOUTS*/
 
 /* CUT */
@@ -998,93 +1089,4 @@
 .care-detail-28 {
   grid-area: detail-28;
   justify-self: end;
-}
-
-/* GENERAL STYLING */
-
-.main-prices {
-  padding: 1em 0 5em 0;
-  align-items: center;
-}
-
-/* STYLING GRID */
-
-.container-prices {
-  width: 95%;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* .intro-prices h1 {
-  font-family: "Dancing Script", cursive;
-  color: #b59b87;
-  font-size: 5em;
-  font-weight: lighter;
-  margin: 0;
-  padding: 0;
-} */
-
-.main-prices h1 {
-  padding-bottom: 3em;
-  text-align: center;
-}
-
-.main-prices h2 {
-  font-family: 'Ruthie', cursive;
-  font-size: 2.5rem;
-  color: #d3b7a7;
-  letter-spacing: 0.2rem;
-  font-weight: bold;
-  text-transform: capitalize;
-  text-align: left;
-}
-
-.main-prices h3 {
-  padding-top: 0;
-  padding-bottom: 0.2em;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.main-prices p {
-  padding-bottom: 2em;
-  font-weight: lighter;
-  font-size: 0.8rem;
-  /* color: rgb(156, 154, 154); */
-}
-
-.h2-cut {
-  padding-bottom: 0;
-}
-
-.small,
-.span {
-  font-size: 0.5rem;
-}
-
-.thin {
-  font-weight: lighter;
-}
-
-.kleingedruckt {
-  font-size: 0.5rem;
-  padding-bottom: 1em;
-}
-
-.euro {
-  font-size: 0.8rem;
-}
-
-.cut,
-.calligraphy,
-.next-generation,
-.color,
-.henne,
-.highlights,
-.balayage,
-.styling,
-.treatment,
-.care {
-  padding-bottom: 3em;
 }
