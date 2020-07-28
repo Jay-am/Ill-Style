@@ -46,7 +46,7 @@
 }
 
 .main-prices p {
-  padding: 8em 0 2em 0;
+  padding: 1.5em 0 2em 0;
   font-weight: lighter;
   font-size: 0.8rem;
   /* color: rgb(156, 154, 154); */
@@ -94,10 +94,14 @@
 
 .h2-cut {
   position: absolute;
-  top: -4.5%;
+  top: -9%;
   right: 10%;
   width: 100%;
   display: block;
+}
+
+.cut-container {
+  padding: 6em 0 3em 0;
 }
 
 .cut {
@@ -289,6 +293,14 @@
 }
 
 /* COLOR */
+
+.h2-color {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 100%;
+  display: block;
+}
 
 .color {
   padding: 0;
@@ -682,6 +694,14 @@
 
 /* STYLING */
 
+.h2-styling {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  width: 100%;
+  display: block;
+}
+
 .styling {
   padding: 0;
   margin: 0 auto;
@@ -784,6 +804,14 @@
 }
 
 /* TREATMENT */
+
+.h2-treatment {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  width: 100%;
+  display: block;
+}
 
 .treatment {
   padding: 0;
@@ -923,6 +951,14 @@
 
 
 /* CARE */
+
+.h2-care {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  width: 100%;
+  display: block;
+}
 
 .care {
   padding: 0;
