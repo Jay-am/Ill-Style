@@ -966,10 +966,14 @@
 
 .h2-care {
   position: absolute;
-  top: 50%;
+  top: 68%;
   right: 10%;
   width: 100%;
   display: block;
+}
+
+.care-container {
+  padding: 3em 0 3em 0;
 }
 
 .care {
