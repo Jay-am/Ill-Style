@@ -10,6 +10,7 @@
   margin: 0 auto;
   padding: 1em 0 5em 0;
   align-items: center;
+  position: relative;
 }
 
 /* STYLING GRID */
@@ -24,21 +25,20 @@
 } */
 
 .main-prices h1 {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   text-align: center;
 }
 
 .main-prices h2 {
-  font-family: 'Ruthie', cursive;
-  font-size: 2.5rem;
+  font-family: 'northrowregular';
+  /* font-family: 'Ruthie', cursive; */
+  font-size: 8rem;
   color: #d3b7a7;
-  letter-spacing: 0.2rem;
-  font-weight: bold;
   text-transform: capitalize;
   text-align: left;
 }
 
-.main-prices h3 {
+​ .main-prices h3 {
   padding: 1.5em 0 0.2em 0;
   font-size: 1rem;
   font-weight: bold;
@@ -46,7 +46,7 @@
 }
 
 .main-prices p {
-  padding: 1.5em 0 2em 0;
+  padding: 8em 0 2em 0;
   font-weight: lighter;
   font-size: 0.8rem;
   /* color: rgb(156, 154, 154); */
@@ -84,13 +84,21 @@
 .styling,
 .treatment,
 .care {
-  padding-bottom: 3em;
+  padding-bottom: 0em;
 }
 
 
 /* GRID LAYOUTS*/
 
 /* CUT */
+
+.h2-cut {
+  position: absolute;
+  top: -4.5%;
+  right: 10%;
+  width: 100%;
+  display: block;
+}
 
 .cut {
   padding: 0;
