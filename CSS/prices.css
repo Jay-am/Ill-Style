@@ -296,10 +296,14 @@
 
 .h2-color {
   position: absolute;
-  top: 20%;
+  top: 15%;
   right: 10%;
   width: 100%;
   display: block;
+}
+
+.color-container {
+  padding: 3em 0 3em 0;
 }
 
 .color {
@@ -696,10 +700,14 @@
 
 .h2-styling {
   position: absolute;
-  top: 30%;
+  top: 50%;
   right: 10%;
   width: 100%;
   display: block;
+}
+
+.styling-container {
+  padding: 3em 0 3em 0;
 }
 
 .styling {
