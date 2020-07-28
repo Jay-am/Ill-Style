@@ -118,7 +118,7 @@ h3 {
 /* LAYOUT */
 
 .container {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -437,7 +437,7 @@ nav ul {
 @media (min-width: 900px) {
 
   .container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -534,7 +534,7 @@ nav ul {
 @media (min-width: 1200px) {
 
   .container {
-    width: 90%;
+    width: 80%;
   }
 
   .nav__item {

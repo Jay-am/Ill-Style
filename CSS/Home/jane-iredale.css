@@ -61,12 +61,12 @@
 /* SLIDESHOW */
 
 .slideshow-testimonials-organic-products {
-  height: 60vh;
+  height: 90vh;
   background: #f7eee6;
 }
 
 .slideshow-testimonials-organic-products h2 {
-  padding-top: 5em;
+  padding-top: 13%;
 }
 
 /* FOOTER */
@@ -152,6 +152,7 @@
     padding: 2em;
     outline: 0.5em solid #ffffff;
   } */
+
 }
 
 @media (min-width: 1800px) {}
