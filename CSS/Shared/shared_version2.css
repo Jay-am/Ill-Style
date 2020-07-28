@@ -393,7 +393,7 @@ nav ul {
 }
 
 .footer__container {
-  padding: 2em 0 0.5em 0;
+  padding: 2em 2em 0.5em 2em;
 }
 
 .legal {
@@ -694,7 +694,7 @@ nav ul {
   .footer__container {
     display: flex;
     margin: 0 auto;
-    padding: 4em 0 0 0;
+    padding: 4em 2em 0 2em;
   }
 
   .footer__item+.footer__item {
@@ -702,6 +702,7 @@ nav ul {
   }
 
   .rights {
+    padding: 0 0 0 2em;
     margin-bottom: 4em;
   }
 
