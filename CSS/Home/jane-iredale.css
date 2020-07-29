@@ -1,5 +1,30 @@
 /* INTRO */
 
+.main-blog {
+  background: #f7eee6;
+  position: relative;
+}
+
+.main-blog h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 100;
+  padding: 5em 0 2em 0;
+}
+
+.highlight-intro {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: capitalize;
+  top: 8%;
+  right: -12%;
+  width: 100%;
+  display: block;
+}
+
 .intro-ji {
   /* background-image: url(https://www.janeiredale.de/media/image/76/g0/db/Abschnitt-2-Mobile-Tablet-Portrait-02.jpg); */
   background: #f7eee6;
@@ -20,6 +45,18 @@
   text-transform: lowercase;
 }
 
+.highlight-ns {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 5.5rem;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: capitalize;
+  top: 20%;
+  right: -46%;
+  width: 100%;
+  display: block;
+}
+
 /* CLEAN BEAUTY */
 
 .clean-beauty {
@@ -29,10 +66,26 @@
   margin-bottom: 0.5em;
 }
 
+.clean-beauty__content {
+  align-self: center;
+}
+
+.highlight-cb {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 5.5rem;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: capitalize;
+  top: 49.5%;
+  right: -4%;
+  width: 100%;
+  display: block;
+}
+
 .clean-beauty__content h2 {
   font-size: 2em;
   text-align: center;
-  padding: 1.5em 0 1em 0;
+  padding: 0 0 1em 0;
 }
 
 .clean-beauty__list p {
@@ -114,7 +167,7 @@
     width: 50%;
     justify-content: center;
     align-items: center;
-    padding: 12em 0 0 6em;
+    padding: 6em 0 0 6em;
   }
 
   .clean-beauty__content h2 {
