@@ -15,37 +15,19 @@
 
 .text-block-2 {
   padding: 2em 0 1em 0;
-  clear: right;
 }
 
 .text-block-paragraph+.text-block-paragraph {
   margin-top: 1em;
 }
 
-/* .text-block-3 {
-  float: right;
-  width: 50%;
-  margin: 0;
-  shape-outside: circle();
-} */
-
-.text-block-3 {
-  shape-outside: circle();
-}
 
 /* FREE */
 
 .frei-von {}
 
 .circle {
-  float: right;
-  width: 450px;
-  height: 450px;
-  margin: 0;
-  shape-outside: circle(50% at 0%);
-  clip-path: circle(50% at 100%);
   background: #d3b7a7;
-  clear: both;
 }
 
 .free_item {
@@ -93,11 +75,6 @@
 
 /* INGREDIENTS */
 
-.main-ingredients {
-  shape-outside: circle();
-  clear: left;
-}
-
 .main-ingredients h2 {
   margin-bottom: 1em;
 }
@@ -115,9 +92,18 @@
 /* SLIDESHOW */
 
 .slideshow-testimonials-organic-products-pm {
-  clear: both;
-  margin-top: 10em;
+  height: 100vh;
+  background: #f7eee6;
+  padding: 12em 0 13em 0;
 }
+
+
+/* FOOTER */
+
+.footer {
+  background: #ad9d9d;
+}
+
 
 
 /* MEDIAQUERIES */
