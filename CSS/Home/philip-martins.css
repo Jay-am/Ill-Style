@@ -7,7 +7,6 @@
 .headline h1 {
   text-align: center;
   padding: 5em 0 4em 0;
-  margin-bottom: 2em;
   font-size: 3em;
   font-weight: 100;
 }
@@ -27,6 +26,10 @@
 
 .hero {
   background: url("../../Images/Produkte/01-08-16_Philip\ Martin\'s_0067_fondo\ modificato_klein\(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  margin: 0;
 }
 
 .main-content-pm {
@@ -51,7 +54,7 @@
   font-size: 5.5rem;
   color: rgba(204, 175, 175, 0.6);
   text-transform: capitalize;
-  top: 78%;
+  top: 165%;
   right: 0%;
   width: 100%;
   display: block;
@@ -141,7 +144,7 @@
   font-weight: bolder;
   color: rgba(204, 175, 175, 0.6);
   text-transform: uppercase;
-  top: 245%;
+  top: 328%;
   right: 0%;
   width: 100%;
   display: block;
