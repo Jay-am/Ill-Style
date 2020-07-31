@@ -3,13 +3,14 @@
 .main-blog {
   background: #f7eee6;
   position: relative;
+  /* padding: 0em 0 10em 0; */
 }
 
 .main-blog h1 {
   font-size: 3rem;
   text-align: center;
   font-weight: 100;
-  padding: 5em 0 2em 0;
+  padding: 5em 0 4em 0;
 }
 
 .highlight-intro {
