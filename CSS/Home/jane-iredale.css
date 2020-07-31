@@ -26,14 +26,13 @@
 }
 
 .intro-ji {
-  /* background-image: url(https://www.janeiredale.de/media/image/76/g0/db/Abschnitt-2-Mobile-Tablet-Portrait-02.jpg); */
-  background: #f7eee6;
-  /* background-size: cover;
+  background-image: url(../../Images/Produkte/JaneIredale/JaneIredaleProducts.jpg);
+  background-position: 20% 0;
   background-repeat: no-repeat;
-  background-position: 5% 5%; */
+  background-size: cover;
   height: 100vh;
   width: 100vw;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
 }
 
 .intro-ji__content p {
