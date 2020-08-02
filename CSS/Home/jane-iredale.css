@@ -28,16 +28,29 @@
 
 .intro-ji {
   background-image: url(../../Images/Produkte/JaneIredale/JaneIredaleProducts.jpg);
-  background-position: 20% 0;
+  background-position: 20% 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
+  position: relative;
   /* margin-bottom: 0.5em; */
 }
 
+.highlight-ns {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 5.5rem;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: capitalize;
+  top: 14%;
+  right: -46%;
+  width: 100%;
+  display: block;
+}
+
 .intro-ji__content {
-  padding: 4em 2em 5em 20%;
+  padding: 3em 2em 5em 20%;
 }
 
 .intro-ji__content p {
@@ -49,17 +62,6 @@
   text-transform: lowercase;
 }
 
-.highlight-ns {
-  position: absolute;
-  font-family: 'northrowregular';
-  font-size: 5.5rem;
-  color: rgba(204, 175, 175, 0.6);
-  text-transform: capitalize;
-  top: 20%;
-  right: -46%;
-  width: 100%;
-  display: block;
-}
 
 /* CLEAN BEAUTY */
 
@@ -81,7 +83,7 @@
   font-size: 5.5rem;
   color: rgba(204, 175, 175, 0.6);
   text-transform: capitalize;
-  top: 10%;
+  top: 21%;
   right: -4%;
   width: 100%;
   display: block;
