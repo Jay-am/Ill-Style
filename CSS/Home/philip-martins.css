@@ -86,7 +86,7 @@
 
 .main-ingredients {
   background: #f0ede9;
-  padding: 18em 0 10em 10%;
+  padding: 13em 0 8em 10%;
   text-align: left;
   position: relative;
   justify-content: space-evenly;
@@ -99,7 +99,7 @@
   /* font-weight: bolder; */
   color: rgba(204, 175, 175, 0.6);
   /* text-transform: uppercase; */
-  top: 16%;
+  top: 10%;
   right: -8%;
   width: 100%;
   display: block;
@@ -143,6 +143,7 @@ ul .bold {
 
 .headline-frei h2 {
   text-align: center;
+  font-weight: bold;
   padding: 2em 0 0em 0;
 }
 
