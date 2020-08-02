@@ -49,7 +49,7 @@
   font-size: 5.5rem;
   color: rgba(204, 175, 175, 0.6);
   text-transform: capitalize;
-  top: 43%;
+  top: 42%;
   right: 0%;
   width: 100%;
   display: block;
@@ -64,22 +64,22 @@
 }
 
 .text-block-1 {
-  padding: 0 5em 10em 15em;
   width: 50%;
+  margin: 0 2.5em 10em 15em;
 }
 
 .text-block-2 {
-  padding: 0 15em 0 5em;
   width: 50%;
+  margin: 0 15em 0 2.5em;
 }
 
 .text-block-paragraph {
   text-align: justify;
 }
 
-.text-block-paragraph+.text-block-paragraph {
+/* .text-block-paragraph+.text-block-paragraph {
   margin-top: 1em;
-}
+} */
 
 
 /* INGREDIENTS */
@@ -96,9 +96,9 @@
   position: absolute;
   font-family: 'northrowregular';
   font-size: 5.5rem;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   color: rgba(204, 175, 175, 0.6);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   top: 16%;
   right: -8%;
   width: 100%;
