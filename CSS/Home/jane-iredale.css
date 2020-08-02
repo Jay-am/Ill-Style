@@ -31,13 +31,13 @@
   background-position: 20% 0;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   /* margin-bottom: 0.5em; */
 }
 
 .intro-ji__content {
-  padding: 5em 2em 5em 20%;
+  padding: 4em 2em 5em 20%;
 }
 
 .intro-ji__content p {
@@ -68,6 +68,7 @@
   height: 100vh;
   width: 100vw;
   margin-bottom: 0.5em;
+  position: relative;
 }
 
 .clean-beauty__content {
@@ -80,7 +81,7 @@
   font-size: 5.5rem;
   color: rgba(204, 175, 175, 0.6);
   text-transform: capitalize;
-  top: 51%;
+  top: 10%;
   right: -4%;
   width: 100%;
   display: block;
