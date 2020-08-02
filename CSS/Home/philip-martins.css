@@ -34,22 +34,13 @@
   margin: 0;
 }
 
-/* MAIN TEXT */
-
-.main-content-pm {
-  background: #f7eee6;
-}
-
-.main-content-pm h1 {
-  text-align: center;
-  padding: 6em 0 4em 0;
-  margin-bottom: 2em;
-}
+/* HEADLINE MAIN CONTENT */
 
 .headline__main-content {
   background: #f7eee6;
   padding: 12em 0 4em 0;
   text-align: center;
+  position: relative;
 }
 
 .highlight-ns {
@@ -58,10 +49,18 @@
   font-size: 5.5rem;
   color: rgba(204, 175, 175, 0.6);
   text-transform: capitalize;
-  top: 165%;
+  top: 43%;
   right: 0%;
   width: 100%;
   display: block;
+}
+
+
+/* MAIN CONTENT */
+
+.main-content-pm {
+  background: #f7eee6;
+  justify-content: space-around;
 }
 
 .text-block-1 {
