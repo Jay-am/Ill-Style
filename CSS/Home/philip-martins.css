@@ -90,6 +90,7 @@
   padding: 18em 0 10em 10%;
   text-align: left;
   position: relative;
+  justify-content: space-evenly;
 }
 
 .highlight-is {
@@ -132,6 +133,10 @@ ul .bold {
 
 .circle {
   background: rgba(204, 175, 175, 0.6);
+  border-radius: 50%;
+  height: 60vh;
+  width: 35vw;
+  margin: 3% 10% 0 0;
 }
 
 .free_item {
