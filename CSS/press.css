@@ -1,6 +1,32 @@
 .main-presse {
-  padding-top: 2em;
+  padding-top: 12em;
   padding-bottom: 5em;
+  background: #f7eee6;
+}
+
+.intro {
+  position: relative;
+}
+
+.intro h1 {
+  padding: 0 0 10em 0;
+}
+
+.highlight-intro {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: uppercase;
+  top: 28%;
+  left: -2.5%;
+  width: 100%;
+  display: block;
+}
+
+.jw {
+  padding-top: 5em;
 }
 
 .main-presse h1,
