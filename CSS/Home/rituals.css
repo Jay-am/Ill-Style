@@ -1,0 +1,29 @@
+.main-rituals {
+  background: #f7eee6;
+}
+
+.headline {
+  padding: 10em 0 0 0;
+  position: relative;
+}
+
+.headline h1 {
+  text-align: center;
+}
+
+.highlight-intro {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: uppercase;
+  top: 55%;
+  left: 37%;
+  width: 100%;
+  display: block;
+}
+
+.slideshow-testimonials-rituals {
+  padding: 8em 0;
+}
