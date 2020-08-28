@@ -1,0 +1,25 @@
+.main-extensions {
+  background: #f7eee6;
+}
+
+.headline {
+  padding: 22em 0 0 0;
+  position: relative;
+}
+
+.highlight-intro {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: uppercase;
+  top: 50%;
+  left: 18%;
+  width: 100%;
+  display: block;
+}
+
+.slideshow-testimonials-extensions {
+  padding: 8em 0;
+}
