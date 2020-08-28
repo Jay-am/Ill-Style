@@ -1,7 +1,8 @@
 /* MAIN */
 
 .main-text-calligraphy {
-  padding: 2em 0 0 0;
+  padding: 18em 0 0 0;
+  background: #f7eee6;
 }
 
 .main-text-calligraphy h1 {
@@ -17,6 +18,19 @@
   padding-top: 1em;
 }
 
+
+.highlight-intro {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 9rem;
+  font-weight: bold;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: uppercase;
+  top: 26.5%;
+  left: 45%;
+  width: 100%;
+  display: block;
+}
 
 /* ASIDE */
 
@@ -55,6 +69,10 @@
 
 .aside-calligraphy__text {
   color: #ffffff;
+}
+
+.slideshow-testimonials-calligraphy {
+  padding: 8em 0;
 }
 
 /* MEDIA QUERIES */
