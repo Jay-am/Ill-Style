@@ -1,5 +1,28 @@
 .main-impressum {
-  padding-top: 2em;
+  padding-top: 18em;
   padding-bottom: 5em;
-  text-align: center;
+  /* text-align: center; */
+  position: relative;
+  background: #f7eee6;
+}
+
+.highlight-hl {
+  position: absolute;
+  font-family: 'northrowregular';
+  font-size: 9rem;
+  font-weight: bold;
+  color: rgba(204, 175, 175, 0.6);
+  text-transform: capitalize;
+  top: 4.5%;
+  right: -12%;
+  width: 100%;
+  display: block;
+}
+
+.section {
+  padding: 1em 0;
+}
+
+.section h3 {
+  padding-bottom: 1em;
 }
