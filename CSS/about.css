@@ -6,7 +6,8 @@
 
 .headline {
   position: relative;
-  padding-top: 28em;
+  padding-top: 15em;
+  text-align: center;
 }
 
 .highlight-intro {
@@ -16,20 +17,29 @@
   font-weight: bold;
   color: rgba(204, 175, 175, 0.6);
   text-transform: uppercase;
-  top: 30%;
-  left: 18%;
+  top: 35%;
+  left: 0%;
   width: 100%;
   display: block;
 }
 
-.paragraph-individualität+.paragraph-individualität {
-  margin-top: 1em;
+.about__content {
+  padding-top: 2em;
+  text-align: center;
 }
 
-.paragraph-detail+.paragraph-detail {
-  margin-top: 1em;
+.about__content p {
+  padding-bottom: 1em;
 }
 
-.paragraph-leidenschaft+.paragraph-leidenschaft {
-  margin-top: 1em;
+.paragraph-mission {
+  padding-top: 2em;
+}
+
+.paragraph-about {
+  padding-top: 2em;
+}
+
+.paragraph-vita {
+  padding-top: 2em;
 }
