@@ -33,6 +33,11 @@
   padding-bottom: 1em;
 }
 
+.comment {
+  padding-top: 2em;
+  font-size: 0.1rem;
+}
+
 .slideshow-testimonials-make-up {
   padding: 8em 0;
 }
