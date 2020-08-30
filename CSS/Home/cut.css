@@ -3,8 +3,9 @@
 }
 
 .headline {
-  padding: 22em 0 0 0;
+  padding: 15em 0 0 0;
   position: relative;
+  text-align: center;
 }
 
 .highlight-intro {
@@ -15,9 +16,18 @@
   color: rgba(204, 175, 175, 0.6);
   text-transform: uppercase;
   top: 50%;
-  left: 18%;
+  left: 0%;
   width: 100%;
   display: block;
+}
+
+.content-cut {
+  padding-top: 2.5em;
+  text-align: center;
+}
+
+.content-cut p {
+  padding-bottom: 1em;
 }
 
 .slideshow-testimonials-cut {
