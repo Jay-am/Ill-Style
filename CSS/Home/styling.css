@@ -3,7 +3,7 @@
 }
 
 .headline {
-  padding: 15em 0 0 0;
+  padding: 10em 0 10em 0;
   position: relative;
 }
 
@@ -18,10 +18,14 @@
   font-weight: bold;
   color: rgba(204, 175, 175, 0.6);
   text-transform: uppercase;
-  top: 45%;
+  top: 52%;
   left: 35%;
   width: 100%;
   display: block;
+}
+
+.content-styling {
+  text-align: center;
 }
 
 .slideshow-testimonials-styling {
