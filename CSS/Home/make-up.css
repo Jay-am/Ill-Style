@@ -24,6 +24,11 @@
   display: block;
 }
 
+.content-make-up {
+  text-align: center;
+  padding-top: 5em;
+}
+
 .slideshow-testimonials-make-up {
   padding: 8em 0;
 }
