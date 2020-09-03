@@ -1,13 +1,13 @@
 /* HEADLINE */
 
-.main-blog h1 {
+.main-blog-ji h1 {
   font-size: 3rem;
   text-align: center;
   font-weight: 100;
   padding: 5em 0 4em 0;
 }
 
-.highlight-hl {
+.highlight-hl-ji {
   position: absolute;
   font-family: 'northrowregular';
   font-size: 6rem;
@@ -22,7 +22,7 @@
 
 /* MAIN */
 
-.main-blog {
+.main-blog-ji {
   background: #f7eee6;
   /* padding: 0em 0 10em 0; */
 }
@@ -38,7 +38,7 @@
   /* margin-bottom: 0.5em; */
 }
 
-.highlight-ns {
+.highlight-ns-ji {
   position: absolute;
   font-family: 'northrowregular';
   font-size: 5.5rem;
@@ -66,7 +66,7 @@
 
 /* CLEAN BEAUTY */
 
-.clean-beauty {
+.clean-beauty-ji {
   background: #f0ede9;
   height: 100vh;
   width: 100vw;
@@ -74,11 +74,11 @@
   position: relative;
 }
 
-.clean-beauty__content {
+.clean-beauty__content-ji {
   align-self: center;
 }
 
-.highlight-cb {
+.highlight-cb-ji {
   position: absolute;
   font-family: 'northrowregular';
   font-size: 5.5rem;
@@ -90,7 +90,7 @@
   display: block;
 }
 
-.clean-beauty__content h2 {
+.clean-beauty__content-ji h2 {
   font-size: 2em;
   text-align: center;
   padding: 0 0 1em 0;

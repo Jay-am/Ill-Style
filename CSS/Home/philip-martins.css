@@ -1,17 +1,17 @@
 /* HEADLINE */
 
-.headline {
+.headline-pm {
   background: #f7eee6;
 }
 
-.headline h1 {
+.headline-pm h1 {
   text-align: center;
   padding: 5em 0 4em 0;
   font-size: 3em;
   font-weight: 100;
 }
 
-.highlight-intro {
+.highlight-intro-pm {
   position: absolute;
   font-family: 'northrowregular';
   font-size: 6rem;
@@ -26,7 +26,7 @@
 
 /* HERO */
 
-.hero {
+.hero-pm {
   background: url("../../Images/Produkte/01-08-16_Philip\ Martin\'s_0067_fondo\ modificato_klein\(1\).jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,14 +36,14 @@
 
 /* HEADLINE MAIN CONTENT */
 
-.headline__main-content {
+.headline__main-content-pm {
   background: #f7eee6;
   padding: 12em 0 4em 0;
   text-align: center;
   position: relative;
 }
 
-.highlight-ns {
+.highlight-ns-pm {
   position: absolute;
   font-family: 'northrowregular';
   font-size: 5.5rem;
@@ -84,7 +84,7 @@
 
 /* INGREDIENTS */
 
-.main-ingredients {
+.main-ingredients-pm {
   background: #f0ede9;
   padding: 13em 0 8em 10%;
   text-align: left;
@@ -92,7 +92,7 @@
   justify-content: space-evenly;
 }
 
-.highlight-is {
+.highlight-is-pm {
   position: absolute;
   font-family: 'northrowregular';
   font-size: 5.5rem;
@@ -115,7 +115,7 @@ ul .bold {
   padding-bottom: 2em;
 }
 
-.ingredients {
+.ingredients-pm {
   list-style: none;
   padding: 0;
 }
