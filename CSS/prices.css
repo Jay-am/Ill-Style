@@ -1024,16 +1024,19 @@
 .vital-detail-2 {
   grid-area: detail-2;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-3 {
   grid-area: detail-3;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-4 {
   grid-area: detail-4;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-5 {
@@ -1043,16 +1046,19 @@
 .vital-detail-6 {
   grid-area: detail-6;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-7 {
   grid-area: detail-7;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-8 {
   grid-area: detail-8;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-9 {
@@ -1062,16 +1068,19 @@
 .vital-detail-10 {
   grid-area: detail-10;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-11 {
   grid-area: detail-11;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-12 {
   grid-area: detail-12;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-13 {
@@ -1081,11 +1090,13 @@
 .vital-detail-14 {
   grid-area: detail-14;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-15 {
   grid-area: detail-15;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-16 {
@@ -1100,11 +1111,13 @@
 .vital-detail-18 {
   grid-area: detail-18;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-19 {
   grid-area: detail-19;
   justify-self: end;
+  display: none;
 }
 
 .vital-detail-20 {
@@ -1167,16 +1180,19 @@
 .detox-detail-2 {
   grid-area: detail-2;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-3 {
   grid-area: detail-3;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-4 {
   grid-area: detail-4;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-5 {
@@ -1186,16 +1202,19 @@
 .detox-detail-6 {
   grid-area: detail-6;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-7 {
   grid-area: detail-7;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-8 {
   grid-area: detail-8;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-9 {
@@ -1205,16 +1224,19 @@
 .detox-detail-10 {
   grid-area: detail-10;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-11 {
   grid-area: detail-11;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-12 {
   grid-area: detail-12;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-13 {
@@ -1224,11 +1246,13 @@
 .detox-detail-14 {
   grid-area: detail-14;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-15 {
   grid-area: detail-15;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-16 {
@@ -1243,11 +1267,13 @@
 .detox-detail-18 {
   grid-area: detail-18;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-19 {
   grid-area: detail-19;
   justify-self: end;
+  display: none;
 }
 
 .detox-detail-20 {
@@ -1310,16 +1336,19 @@
 .peeling-detail-2 {
   grid-area: detail-2;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-3 {
   grid-area: detail-3;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-4 {
   grid-area: detail-4;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-5 {
@@ -1329,16 +1358,19 @@
 .peeling-detail-6 {
   grid-area: detail-6;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-7 {
   grid-area: detail-7;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-8 {
   grid-area: detail-8;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-9 {
@@ -1348,16 +1380,19 @@
 .peeling-detail-10 {
   grid-area: detail-10;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-11 {
   grid-area: detail-11;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-12 {
   grid-area: detail-12;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-13 {
@@ -1367,16 +1402,19 @@
 .peeling-detail-14 {
   grid-area: detail-14;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-15 {
   grid-area: detail-15;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-16 {
   grid-area: detail-16;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-17 {
@@ -1386,11 +1424,13 @@
 .peeling-detail-18 {
   grid-area: detail-18;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-19 {
   grid-area: detail-19;
   justify-self: end;
+  display: none;
 }
 
 .peeling-detail-20 {
@@ -1453,16 +1493,19 @@
 .special-detail-2 {
   grid-area: detail-2;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-3 {
   grid-area: detail-3;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-4 {
   grid-area: detail-4;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-5 {
@@ -1472,16 +1515,19 @@
 .special-detail-6 {
   grid-area: detail-6;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-7 {
   grid-area: detail-7;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-8 {
   grid-area: detail-8;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-9 {
@@ -1491,16 +1537,19 @@
 .special-detail-10 {
   grid-area: detail-10;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-11 {
   grid-area: detail-11;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-12 {
   grid-area: detail-12;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-13 {
@@ -1510,16 +1559,19 @@
 .special-detail-14 {
   grid-area: detail-14;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-15 {
   grid-area: detail-15;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-16 {
   grid-area: detail-16;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-17 {
@@ -1529,11 +1581,13 @@
 .special-detail-18 {
   grid-area: detail-18;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-19 {
   grid-area: detail-19;
   justify-self: end;
+  display: none;
 }
 
 .special-detail-20 {
@@ -1596,16 +1650,19 @@
 .oil-detail-2 {
   grid-area: detail-2;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-3 {
   grid-area: detail-3;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-4 {
   grid-area: detail-4;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-5 {
@@ -1615,16 +1672,19 @@
 .oil-detail-6 {
   grid-area: detail-6;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-7 {
   grid-area: detail-7;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-8 {
   grid-area: detail-8;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-9 {
@@ -1634,16 +1694,19 @@
 .oil-detail-10 {
   grid-area: detail-10;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-11 {
   grid-area: detail-11;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-12 {
   grid-area: detail-12;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-13 {
@@ -1653,16 +1716,19 @@
 .oil-detail-14 {
   grid-area: detail-14;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-15 {
   grid-area: detail-15;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-16 {
   grid-area: detail-16;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-17 {
@@ -1672,11 +1738,13 @@
 .oil-detail-18 {
   grid-area: detail-18;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-19 {
   grid-area: detail-19;
   justify-self: end;
+  display: none;
 }
 
 .oil-detail-20 {
