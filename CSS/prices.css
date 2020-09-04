@@ -821,7 +821,7 @@
 
 /* TREATMENT */
 
-.h2-treatment {
+/* .h2-treatment {
   position: absolute;
   top: 59.5%;
   right: 10%;
@@ -967,8 +967,152 @@
 .treatment-detail-20 {
   grid-area: detail-20;
   justify-self: end;
+} */
+
+/* VITAL RITUAL */
+
+.vital {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 55% repeat(5, 15%);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 0.2em;
+  row-gap: 0.2em;
+  grid-template-areas:
+    /* "... headline-1 headline-2 headline-3" */
+    "detail-1 detail-2 detail-3 detail-4"
+    "detail-5 detail-6 detail-7 detail-8"
+    "detail-9 detail-10 detail-11 detail-12"
+    "detail-13 detail-14 detail-15 detail-16"
+    "detail-17 detail-18 detail-19 detail-20";
 }
 
+/* .vital-headline-1 {
+  grid-area: headline-1;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.vital-headline-2 {
+  grid-area: headline-2;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+}
+
+.vital-headline-3 {
+  grid-area: headline-3;
+  place-self: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: rgb(201, 200, 200);
+} */
+
+.vital-detail-1 {
+  grid-area: detail-1;
+}
+
+.vital-detail-2 {
+  grid-area: detail-2;
+  justify-self: end;
+}
+
+.vital-detail-3 {
+  grid-area: detail-3;
+  justify-self: end;
+}
+
+.vital-detail-4 {
+  grid-area: detail-4;
+  justify-self: end;
+}
+
+.vital-detail-5 {
+  grid-area: detail-5;
+}
+
+.vital-detail-6 {
+  grid-area: detail-6;
+  justify-self: end;
+}
+
+.vital-detail-7 {
+  grid-area: detail-7;
+  justify-self: end;
+}
+
+.vital-detail-8 {
+  grid-area: detail-8;
+  justify-self: end;
+}
+
+.vital-detail-9 {
+  grid-area: detail-9;
+}
+
+.vital-detail-10 {
+  grid-area: detail-10;
+  justify-self: end;
+}
+
+.vital-detail-11 {
+  grid-area: detail-11;
+  justify-self: end;
+}
+
+.vital-detail-12 {
+  grid-area: detail-12;
+  justify-self: end;
+}
+
+.vital-detail-13 {
+  grid-area: detail-13;
+  justify-self: end;
+}
+
+.vital-detail-14 {
+  grid-area: detail-14;
+  justify-self: end;
+}
+
+.vital-detail-15 {
+  grid-area: detail-15;
+  justify-self: end;
+}
+
+.vital-detail-16 {
+  grid-area: detail-16;
+  justify-self: end;
+}
+
+.vital-detail-17 {
+  grid-area: detail-17;
+  justify-self: end;
+}
+
+.vital-detail-18 {
+  grid-area: detail-18;
+  justify-self: end;
+}
+
+.vital-detail-19 {
+  grid-area: detail-19;
+  justify-self: end;
+}
+
+.vital-detail-20 {
+  grid-area: detail-20;
+  justify-self: end;
+}
 
 /* CARE */
 
