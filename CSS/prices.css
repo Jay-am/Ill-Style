@@ -1076,7 +1076,6 @@
 
 .vital-detail-13 {
   grid-area: detail-13;
-  justify-self: end;
 }
 
 .vital-detail-14 {
@@ -1096,7 +1095,6 @@
 
 .vital-detail-17 {
   grid-area: detail-17;
-  justify-self: end;
 }
 
 .vital-detail-18 {
@@ -1221,7 +1219,6 @@
 
 .detox-detail-13 {
   grid-area: detail-13;
-  justify-self: end;
 }
 
 .detox-detail-14 {
@@ -1241,7 +1238,6 @@
 
 .detox-detail-17 {
   grid-area: detail-17;
-  justify-self: end;
 }
 
 .detox-detail-18 {
@@ -1366,7 +1362,6 @@
 
 .peeling-detail-13 {
   grid-area: detail-13;
-  justify-self: end;
 }
 
 .peeling-detail-14 {
@@ -1386,7 +1381,6 @@
 
 .peeling-detail-17 {
   grid-area: detail-17;
-  justify-self: end;
 }
 
 .peeling-detail-18 {
@@ -1511,7 +1505,6 @@
 
 .special-detail-13 {
   grid-area: detail-13;
-  justify-self: end;
 }
 
 .special-detail-14 {
@@ -1531,7 +1524,6 @@
 
 .special-detail-17 {
   grid-area: detail-17;
-  justify-self: end;
 }
 
 .special-detail-18 {
@@ -1656,7 +1648,6 @@
 
 .oil-detail-13 {
   grid-area: detail-13;
-  justify-self: end;
 }
 
 .oil-detail-14 {
@@ -1676,7 +1667,6 @@
 
 .oil-detail-17 {
   grid-area: detail-17;
-  justify-self: end;
 }
 
 .oil-detail-18 {
