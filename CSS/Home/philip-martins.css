@@ -2,9 +2,11 @@
 
 .headline-pm {
   background: #f7eee6;
+  width: 100%;
 }
 
 .headline-pm h1 {
+  width: 100%;
   text-align: center;
   padding: 5em 0 4em 0;
   font-size: 3em;
@@ -13,13 +15,13 @@
 
 .highlight-intro-pm {
   position: absolute;
-  font-family: 'northrowregular';
+  font-family: "northrowregular";
   font-size: 6rem;
   font-weight: bold;
   color: rgba(204, 175, 175, 0.6);
   text-transform: uppercase;
   top: 26.5%;
-  right: -18%;
+  left: 18%;
   width: 100%;
   display: block;
 }
@@ -27,7 +29,7 @@
 /* HERO */
 
 .hero-pm {
-  background: url("../../Images/Produkte/01-08-16_Philip\ Martin\'s_0067_fondo\ modificato_klein\(1\).jpg");
+  background: url("../../Images/Produkte/01-08-16_Philip\ Martin's_0067_fondo\ modificato_klein\(1\).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 95vh;
@@ -38,6 +40,7 @@
 
 .headline__main-content-pm {
   background: #f7eee6;
+  width: 100%;
   padding: 12em 0 4em 0;
   text-align: center;
   position: relative;
@@ -45,7 +48,7 @@
 
 .highlight-ns-pm {
   position: absolute;
-  font-family: 'northrowregular';
+  font-family: "northrowregular";
   font-size: 5.5rem;
   color: rgba(204, 175, 175, 0.6);
   text-transform: capitalize;
@@ -54,7 +57,6 @@
   width: 100%;
   display: block;
 }
-
 
 /* MAIN CONTENT */
 
@@ -81,11 +83,12 @@
   margin-top: 1em;
 } */
 
-
 /* INGREDIENTS */
 
 .main-ingredients-pm {
   background: #f0ede9;
+  width: 100%;
+  width: 100%;
   padding: 13em 0 8em 10%;
   text-align: left;
   position: relative;
@@ -94,13 +97,13 @@
 
 .highlight-is-pm {
   position: absolute;
-  font-family: 'northrowregular';
+  font-family: "northrowregular";
   font-size: 5.5rem;
   /* font-weight: bolder; */
   color: rgba(204, 175, 175, 0.6);
   /* text-transform: uppercase; */
   top: 10%;
-  right: -8%;
+  left: 8%;
   width: 100%;
   display: block;
 }
@@ -124,7 +127,6 @@ ul .bold {
   font-size: 0.9rem;
   line-height: 2rem;
 }
-
 
 /* FREE */
 
@@ -150,7 +152,7 @@ ul .bold {
 .headline-frei p {
   text-align: center;
   margin-bottom: 1.2em;
-  padding: 0 -4em 0 0;
+  padding: 0 4em 0 0;
 }
 
 .small,
@@ -176,7 +178,6 @@ ul .bold {
   padding: 0 2.5em 0 0;
 }
 
-
 /* SLIDESHOW */
 
 .slideshow-testimonials-organic-products-pm {
@@ -184,18 +185,16 @@ ul .bold {
   padding: 10em 0 10em 0;
 }
 
-
 /* FOOTER */
 
 .footer {
   background: #ad9d9d;
 }
 
-
-
 /* MEDIAQUERIES */
 
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+}
 
 @media (min-width: 900px) {
   .hero-pm img {
@@ -215,6 +214,8 @@ ul .bold {
   }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
-@media (min-width: 1800px) {}
+@media (min-width: 1800px) {
+}
