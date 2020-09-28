@@ -56,3 +56,23 @@ h3 {
 .slideshow-testimonials-wedding {
   padding: 8em 0;
 }
+
+.cta {
+  padding: 4em 0 0em 0;
+}
+
+.cta p {
+  padding-bottom: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.cta__btn {
+  background: rgb(2, 158, 175);
+  padding: 1.5em 2em;
+  border: 1px solid rgb(2, 158, 175);
+}
