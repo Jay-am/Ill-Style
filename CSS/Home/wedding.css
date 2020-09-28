@@ -13,7 +13,7 @@
 
 .highlight-intro {
   position: absolute;
-  font-family: 'northrowregular';
+  font-family: "northrowregular";
   font-size: 6rem;
   font-weight: bold;
   color: rgba(204, 175, 175, 0.6);
@@ -27,6 +27,21 @@
 .content-wedding {
   text-align: center;
   padding: 3.5em 0 0 0;
+}
+
+.intro {
+  padding-bottom: 5em;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.ill {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(204, 175, 175, 0.6);
 }
 
 .content-wedding p {
