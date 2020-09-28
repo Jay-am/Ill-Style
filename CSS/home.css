@@ -11,7 +11,7 @@
 
 .highlight-intro {
   position: absolute;
-  font-family: 'northrowregular';
+  font-family: "northrowregular";
   font-size: 6rem;
   font-weight: bold;
   color: rgba(204, 175, 175, 0.6);
@@ -58,7 +58,7 @@
 }
 
 .service-title {
-  font-family: 'northrowregular', cursive;
+  font-family: "northrowregular", cursive;
   font-size: 2.5em;
   font-weight: lighter;
   color: white;
@@ -72,7 +72,7 @@
   top: 0;
   left: 0;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
   background: rgba(#d3b7a7, 0.05);
   border: 2px solid #d3b7a7;
   /* box-shadow: 2px 2px 10px 0px rgb(209, 208, 208); */
@@ -132,7 +132,7 @@
     grid-row: 3 / span 1;
   }
 
-  .make-up {
+  .specials {
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
   }
@@ -146,15 +146,9 @@
     grid-column: 2 / span 1;
     grid-row: 4 / span 1;
   }
-
-  .wedding {
-    grid-column: 1 / span 1;
-    grid-row: 5 / span 1;
-  }
 }
 
 @media (min-width: 900px) {
-
   .main-home {
     padding-top: 4em;
   }
@@ -188,12 +182,12 @@
     grid-row: 2 / span 1;
   }
 
-  .organic-products {
+  .wedding {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
   }
 
-  .make-up {
+  .organic-products {
     grid-column: 3 / span 1;
     grid-row: 2 / span 1;
   }
@@ -208,12 +202,14 @@
     grid-row: 3 / span 1;
   }
 
-  .wedding {
+  .specials {
     grid-column: 3 / span 1;
     grid-row: 3 / span 1;
   }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
-@media (min-width: 1800px) {}
+@media (min-width: 1800px) {
+}
